@@ -1,0 +1,23 @@
+--- 
+title: "Biology 125 Lab Manual"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+description: "Your Description Here"
+---
+
+# Welcome {-}
+
+Write any prefatory content here.
+
+## Copyright {-}
+
+This work is licenced under the Creative Commons [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+Please use the following for citing this document
+
+Author (Date). *Title*. [url]()
+
+All source files are available [url]().
+
+## Conventions {-}

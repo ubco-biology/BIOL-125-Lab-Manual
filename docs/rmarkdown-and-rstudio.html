@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>RMarkdown and RStudio | Biology 125 Lab Manual</title>
+  <meta name="description" content="Your Description Here" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="RMarkdown and RStudio | Biology 125 Lab Manual" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Your Description Here" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="RMarkdown and RStudio | Biology 125 Lab Manual" />
+  
+  <meta name="twitter:description" content="Your Description Here" />
+  
+
+
+
+<meta name="date" content="2021-11-25" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="a-good-report.html"/>
+<link rel="next" href="rubric-lab-5.html"/>
+<script src="libs/header-attrs-2.9/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XMZ7948ZCK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XMZ7948ZCK');
+</script>
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Your Title Here</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Welcome</a>
+<ul>
+<li class="chapter" data-level="" data-path="copyright.html"><a href="copyright.html"><i class="fa fa-check"></i>Copyright</a></li>
+<li class="chapter" data-level="" data-path="conventions.html"><a href="conventions.html"><i class="fa fa-check"></i>Conventions</a></li>
+</ul></li>
+<li class="part"><span><b>Lab 1</b></span></li>
+<li class="chapter" data-level="" data-path="welcome-1.html"><a href="welcome-1.html"><i class="fa fa-check"></i>Welcome</a>
+<ul>
+<li class="chapter" data-level="" data-path="lab-format.html"><a href="lab-format.html"><i class="fa fa-check"></i>Lab format</a></li>
+<li class="chapter" data-level="" data-path="your-first-project.html"><a href="your-first-project.html"><i class="fa fa-check"></i>Your first project</a></li>
+<li class="chapter" data-level="" data-path="but-first.html"><a href="but-first.html"><i class="fa fa-check"></i>But first…</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="research-project-part-1.html"><a href="research-project-part-1.html"><i class="fa fa-check"></i>Research Project: Part 1</a>
+<ul>
+<li class="chapter" data-level="" data-path="research-project-part-1.html"><a href="research-project-part-1.html#study-protocol"><i class="fa fa-check"></i>Study protocol</a></li>
+<li class="chapter" data-level="" data-path="meet-elliot.html"><a href="meet-elliot.html"><i class="fa fa-check"></i>Meet Elliot</a></li>
+<li class="chapter" data-level="" data-path="finding-property.html"><a href="finding-property.html"><i class="fa fa-check"></i>Finding property</a>
+<ul>
+<li class="chapter" data-level="" data-path="finding-property.html"><a href="finding-property.html#property-1"><i class="fa fa-check"></i>Property 1</a></li>
+<li class="chapter" data-level="" data-path="finding-property.html"><a href="finding-property.html#property-2"><i class="fa fa-check"></i>Property 2</a></li>
+<li class="chapter" data-level="" data-path="finding-property.html"><a href="finding-property.html#property-3"><i class="fa fa-check"></i>Property 3</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="your-mission.html"><a href="your-mission.html"><i class="fa fa-check"></i>Your mission</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="research-question.html"><a href="research-question.html"><i class="fa fa-check"></i>Research Question</a>
+<ul>
+<li class="chapter" data-level="" data-path="a-good-research-question.html"><a href="a-good-research-question.html"><i class="fa fa-check"></i>A good research question</a></li>
+<li class="chapter" data-level="" data-path="background.html"><a href="background.html"><i class="fa fa-check"></i>Background</a>
+<ul>
+<li class="chapter" data-level="" data-path="background.html"><a href="background.html#consulting-the-literature"><i class="fa fa-check"></i>Consulting the literature</a></li>
+<li class="chapter" data-level="" data-path="background.html"><a href="background.html#the-problem-at-hand"><i class="fa fa-check"></i>The problem at hand</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="phrasing.html"><a href="phrasing.html"><i class="fa fa-check"></i>Phrasing</a>
+<ul>
+<li class="chapter" data-level="" data-path="phrasing.html"><a href="phrasing.html#a-testable-question"><i class="fa fa-check"></i>A testable question</a></li>
+<li class="chapter" data-level="" data-path="phrasing.html"><a href="phrasing.html#a-succinct-question"><i class="fa fa-check"></i>A succinct question</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="an-example.html"><a href="an-example.html"><i class="fa fa-check"></i>An Example</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="research-data-management.html"><a href="research-data-management.html"><i class="fa fa-check"></i>Research Data Management</a></li>
+<li class="chapter" data-level="" data-path="assignment-lab-1.html"><a href="assignment-lab-1.html"><i class="fa fa-check"></i>Assignment: Lab 1</a>
+<ul>
+<li class="chapter" data-level="" data-path="assignment-lab-1.html"><a href="assignment-lab-1.html#putting-it-into-practice"><i class="fa fa-check"></i>Putting it into practice</a></li>
+</ul></li>
+<li class="part"><span><b>Lab 2</b></span></li>
+<li class="chapter" data-level="" data-path="open-science.html"><a href="open-science.html"><i class="fa fa-check"></i>Open Science</a></li>
+<li class="part"><span><b>Lab 3</b></span></li>
+<li class="chapter" data-level="" data-path="research-project-part-2.html"><a href="research-project-part-2.html"><i class="fa fa-check"></i>Research Project: Part 2</a>
+<ul>
+<li class="chapter" data-level="" data-path="research-project-part-2.html"><a href="research-project-part-2.html#data-collection"><i class="fa fa-check"></i>Data collection</a></li>
+<li class="chapter" data-level="" data-path="overview-lab-3.html"><a href="overview-lab-3.html"><i class="fa fa-check"></i>Overview: Lab 3</a>
+<ul>
+<li class="chapter" data-level="" data-path="overview-lab-3.html"><a href="overview-lab-3.html#collecting-data"><i class="fa fa-check"></i>Collecting data</a></li>
+<li class="chapter" data-level="" data-path="overview-lab-3.html"><a href="overview-lab-3.html#preparing-for-the-next-trial"><i class="fa fa-check"></i>Preparing for the next trial</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="assignment-lab-3.html"><a href="assignment-lab-3.html"><i class="fa fa-check"></i>Assignment: Lab 3</a></li>
+<li class="part"><span><b>Lab 4</b></span></li>
+<li class="chapter" data-level="" data-path="research-project-part-3.html"><a href="research-project-part-3.html"><i class="fa fa-check"></i>Research Project: Part 3</a>
+<ul>
+<li class="chapter" data-level="" data-path="research-project-part-3.html"><a href="research-project-part-3.html#data-analysis"><i class="fa fa-check"></i>Data analysis</a></li>
+</ul></li>
+<li class="part"><span><b>Lab 5</b></span></li>
+<li class="chapter" data-level="" data-path="research-project-part-4.html"><a href="research-project-part-4.html"><i class="fa fa-check"></i>Research Project: Part 4</a>
+<ul>
+<li class="chapter" data-level="" data-path="research-project-part-4.html"><a href="research-project-part-4.html#bringing-things-together"><i class="fa fa-check"></i>Bringing things together</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="recommendation-report.html"><a href="recommendation-report.html"><i class="fa fa-check"></i>Recommendation Report</a>
+<ul>
+<li class="chapter" data-level="" data-path="science-writing.html"><a href="science-writing.html"><i class="fa fa-check"></i>Science writing</a></li>
+<li class="chapter" data-level="" data-path="preparing-to-write.html"><a href="preparing-to-write.html"><i class="fa fa-check"></i>Preparing to write</a></li>
+<li class="chapter" data-level="" data-path="a-good-report.html"><a href="a-good-report.html"><i class="fa fa-check"></i>A good report</a>
+<ul>
+<li class="chapter" data-level="" data-path="a-good-report.html"><a href="a-good-report.html#abstract"><i class="fa fa-check"></i>Abstract</a></li>
+<li class="chapter" data-level="" data-path="a-good-report.html"><a href="a-good-report.html#data-availablity-statement"><i class="fa fa-check"></i>Data availablity statement</a></li>
+<li class="chapter" data-level="" data-path="a-good-report.html"><a href="a-good-report.html#introduction"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="" data-path="a-good-report.html"><a href="a-good-report.html#methods"><i class="fa fa-check"></i>Methods</a></li>
+<li class="chapter" data-level="" data-path="a-good-report.html"><a href="a-good-report.html#results"><i class="fa fa-check"></i>Results</a></li>
+<li class="chapter" data-level="" data-path="a-good-report.html"><a href="a-good-report.html#discussion-conclusions-recommendations"><i class="fa fa-check"></i>Discussion, Conclusions &amp; Recommendations</a></li>
+<li class="chapter" data-level="" data-path="a-good-report.html"><a href="a-good-report.html#references"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="rmarkdown-and-rstudio.html"><a href="rmarkdown-and-rstudio.html"><i class="fa fa-check"></i>RMarkdown and RStudio</a>
+<ul>
+<li><a href="rmarkdown-and-rstudio.html#installing-r">Installing <code>R</code></a></li>
+<li class="chapter" data-level="" data-path="rmarkdown-and-rstudio.html"><a href="rmarkdown-and-rstudio.html#installing-rstudio"><i class="fa fa-check"></i>Installing RStudio</a></li>
+<li class="chapter" data-level="" data-path="rmarkdown-and-rstudio.html"><a href="rmarkdown-and-rstudio.html#a-quick-intro-to-rstudio"><i class="fa fa-check"></i>A quick intro to RStudio</a></li>
+<li class="chapter" data-level="" data-path="rmarkdown-and-rstudio.html"><a href="rmarkdown-and-rstudio.html#getting-set-up"><i class="fa fa-check"></i>Getting set up</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="rubric-lab-5.html"><a href="rubric-lab-5.html"><i class="fa fa-check"></i>Rubric: Lab 5</a></li>
+<li class="chapter" data-level="" data-path="assignment-lab-5.html"><a href="assignment-lab-5.html"><i class="fa fa-check"></i>Assignment: Lab 5</a>
+<ul>
+<li class="chapter" data-level="" data-path="assignment-lab-5.html"><a href="assignment-lab-5.html#using-the-template"><i class="fa fa-check"></i>Using the template</a></li>
+<li class="chapter" data-level="" data-path="assignment-lab-5.html"><a href="assignment-lab-5.html#directory-structure-file-naming"><i class="fa fa-check"></i>Directory structure &amp; file naming</a></li>
+<li class="chapter" data-level="" data-path="assignment-lab-5.html"><a href="assignment-lab-5.html#yaml"><i class="fa fa-check"></i>YAML</a></li>
+<li class="chapter" data-level="" data-path="assignment-lab-5.html"><a href="assignment-lab-5.html#document-body"><i class="fa fa-check"></i>Document body</a></li>
+<li class="chapter" data-level="" data-path="assignment-lab-5.html"><a href="assignment-lab-5.html#images-graphs"><i class="fa fa-check"></i>Images &amp; graphs</a></li>
+<li class="chapter" data-level="" data-path="assignment-lab-5.html"><a href="assignment-lab-5.html#references-1"><i class="fa fa-check"></i>References</a></li>
+<li><a href="assignment-lab-5.html#building-the-pdf">Building the <code>pdf</code></a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Biology 125 Lab Manual</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="rmarkdown-and-rstudio" class="section level2 unnumbered">
+<h2>RMarkdown and RStudio</h2>
+<p>When you're writing <code>readme</code> files and <code>data-dictionaries</code> - or even taking notes in class - a text editor like Atom is extremely convenient and versatile. When it comes to authoring reports, however, we're going to move you into RStudio.</p>
+<p>RStudio is an IDE - an Integrated Development Environment - for <code>R</code>. This is just a fancy way of saying that it's an application that helps you write <code>R</code> code. In BIOL202 and BIOL228, you'll start using RStudio to do analyses in <code>R</code>. Right now, we're just using RStudio to write in RMarkdown and to get used to using the RStudio environment. Along the way, we’ll see some <code>R</code> code as we get things set up.</p>
+<p>Since RStudio is designed for working with <code>R</code>, we need to install both <code>R</code> and Rstudio. So let's do this.</p>
+<div class="note">
+<p><strong>Note</strong></p>
+<p>If you're running a Chromebook, using a tablet, or don't want to install anything new on your computer, all of the Windows computers in the library have <code>R</code> and RStudio installed on them.</p>
+<p>While the <code>tinytex</code> package is installed on these machines, it's not loaded out of the box. So, you will need to run the following code in the console</p>
+<pre><code>tinytex::install_tinytex()</code></pre>
+<p>If prompted to update the <code>rmarkdown</code> package, do so. There are more details on <code>tinytex</code> and <code>rmarkdown</code> in the 'Getting set up' section below.</p>
+</div>
+<div id="installing-r" class="section level3 unnumbered">
+<h3>Installing <code>R</code></h3>
+<p><code>R</code> is available from CRAN - the Comprehensive R Archive Network - and is available for all operating systems. Find and download the installer for your operating system at <a href="https://cran.r-project.org/">https://cran.r-project.org/</a>. At the time of writing, the latest version is 4.1.2 Any version that is 4.x.x should be fine for what we'll be doing.</p>
+<p><img src="images/Install-R_20220101.png" /></p>
+</div>
+<div id="installing-rstudio" class="section level3 unnumbered">
+<h3>Installing RStudio</h3>
+<p>Once you have <code>R</code> installed, you can go ahead and install RStudio, also available for all operating systems. Find and download the installer for your operating system at <a href="https://www.rstudio.com/products/rstudio/download/#download">https://www.rstudio.com/products/rstudio/download/#download</a>. At the time of writing, the latest version is 2021.09.0+351 This or any later version that is published should be fine for what we’ll be doing.</p>
+<p><img src="images/Install-RStudio_20220101.png" /></p>
+</div>
+<div id="a-quick-intro-to-rstudio" class="section level3 unnumbered">
+<h3>A quick intro to RStudio</h3>
+<p>Your RStudio window is comprised of 4 panes.</p>
+<ul>
+<li>The upper left is where you’ll find your working documents.</li>
+<li>The lower left is your console. It is in the console that we can run <code>R</code> code directly if needed.</li>
+<li>The upper right displays information related to your working environment.</li>
+<li>The lower right is where you’ll see any output generated by your <code>R</code> code, like figures, help pages etc. It’s also where you’ll see a file manager so that you can interact with your files directly from within RStudio.</li>
+</ul>
+<p><img src="images/Intro-RStudio_20220101.png" /></p>
+<p>For report authoring using RMarkdown, we'll mostly be concerned with the upper left pane. We'll occasionally use the console to run a bit of <code>R</code>. And we'll occasionally use the file manager to access files. We won't worry at all about the upper right pane - this will have more relevance when you start computing statistics in <code>R</code> using RStudio.</p>
+<div class="note">
+<p><strong>Note</strong></p>
+<p>When you launch RStudio, unless you're opening an existing document, you will only see 3 panes, your console will be on the left, and your environment and output panes will be on the right.</p>
+</div>
+</div>
+<div id="getting-set-up" class="section level3 unnumbered">
+<h3>Getting set up</h3>
+<p>Being able to convert from markdown to pdf is not something we can do with the default install of <code>R</code>. We need to get two add-ons to be able to do this. Add-ons in <code>R</code> are called <code>packages</code>. The first package we need to install is <code>rmarkdown</code>. The second is <code>tinytex</code>. <code>rmarkdown</code> handles the general process of reading through your report and getting it ready to be output to a different format. <code>tinytex</code> contains the necessary information to produce a <code>pdf</code>, so <code>rmarkdown</code> will use <code>tinytex</code> for that one part of the conversion process.</p>
+<div class="note">
+<p><strong>Note</strong></p>
+<p>The <code>x</code> in <code>tinytex</code> is pronounced like a <code>k</code>, so should read more like <code>tinytek</code> or <code>tinytech</code>.</p>
+</div>
+<div id="installing-rmarkdown" class="section level4 unnumbered">
+<h4>Installing <code>Rmarkdown</code></h4>
+<p>Open RStudio, in the console type the following and hit 'Enter'.</p>
+<pre><code>install.packages(&quot;rmarkdown&quot;)</code></pre>
+<p>You'll see a bunch of stuff written to the console. When it's all done, you'll see your prompt - <code>&gt;</code> - return.</p>
+<p><img src="images/Install-RMarkdown_20220101.png" /></p>
+</div>
+<div id="installing-tinytex" class="section level4 unnumbered">
+<h4>Installing <code>tinytex</code></h4>
+<p>Now, in the console type the following and hit 'Enter' again.</p>
+<pre><code>install.packages(&quot;tinytex&quot;)</code></pre>
+<p>When that's all done, type the following and hit 'Enter'</p>
+<pre><code>tinytex::install_tinytex()</code></pre>
+<p>That's it. You should be good to go to open the <code>.Rmd</code> template available in the Assignment tab for this lab.</p>
+</div>
+</div>
+</div>
+<!-- </div> -->
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="a-good-report.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="rubric-lab-5.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["YourTitleHere.pdf", "YourTitleHere.epub"],
+"toc": {
+"collapse": "section",
+"scroll_highight": true
+}
+});
+});
+</script>
+
+</body>
+
+</html>

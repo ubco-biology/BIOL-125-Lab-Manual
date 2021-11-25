@@ -1,0 +1,35 @@
+.note, .advanced, .flag, .takeAway {
+  padding: 10px;
+  margin: 20px 0px;
+  border-radius: 5px;
+}
+
+.note {
+  border: 1pt solid #0d4a7b;
+  background-color: #f0f7fd;
+}
+
+.advanced {
+  border: 1pt solid #1f7b0d;
+  background-color: #f1fdf0;
+}
+
+.takeAway {
+  border: 1pt solid #cccc00;
+  background-color: #ffffe6;
+}
+
+.flag {
+  border: 1pt solid #cc0000;
+  background-color: #ffe6e6;
+}
+
+.caption {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

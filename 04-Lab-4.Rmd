@@ -1,0 +1,9 @@
+# (PART\*) Lab 4 {-}
+
+# Research Project: Part 3 {-}
+
+*Last updated `r Sys.Date()`*
+
+### Data analysis {-}
+
+In Lab 3 we started collecting data according what we had mapped out in protocol. In this lab we\'ll be working through analysing the data we\'ve collected to date.

@@ -1,0 +1,64 @@
+# (PART\*) Lab 3 {-}
+
+# Research Project: Part 2 {-}
+
+*Last updated `r Sys.Date()`*
+
+### Data collection {-}
+
+In Lab 1 we established our protocol. In this lab, we\'ll put that protocol into practice and start collecting some data.
+
+Your assignment this week will help prepare you for the report that you will ultimately be preparing.
+
+## Overview: Lab 3 {-}
+
+During this lab, you will...
+
+1. Run your first trial and collect data (this was set up in Lab 1)
+2. Prepare your set up for your second trial
+
+### Collecting data {-}
+
+You will need to set up your data recording tool - you sketched this out in your protocol and now you\'ll need to implement it. Keep in mind that at some point you\'ll need to submit your data as a `.csv` file. How you record your data now might save you time later on.
+
+When collecting data be sure to take notes on any and all observations. These will be very important in helping you interpret your data later on. Take your time when recording and organizing your data.
+
+### Preparing for the next trial {-}
+
+Once you have finished collecting your data you will need to set up your experiment again in order to collect a second round of data during your next synchronous week.
+
+If you are wanting to increase your sample size and thus are doing more trials ensure that you follow the same process as the previous synchronous week. Alternatively, you may be setting up to ask an alternative question. In this case, be sure you have your TA take a look and approve the design / modifications before you leave your lab today.
+
+# Assignment: Lab 3 {-}
+
+<div class = "note">
+**Note**
+
+See [Canvas](https://canvas.ubc.ca/) for assignment due date.
+
+Failure to submit properly or submitting an incorrect document will be penalized. Assignments submitted within 24 hours of the due date will receive a 10% penalty and no submissions will be accepted after that.
+</div>
+
+Writing a report can be extremely daunting and confusing especially if you have not written many of them. Many students struggle to know what information goes in what part of a report and in particular what should be included in a results section and what should not.
+
+In order to help you better understand how to write a results section you are asked to edit the results section of the following docuemt:
+
+* FILE UPLOAD PENDING
+
+The results example section contains at least 10 errors. Using the rubric for writing a good results section - found on [Canvas](https://canvas.ubc.ca), in [Lab 5](05-Lab-5#rubric.html), and pasted below - and the information provided, you must edit this results section by clearly identifying and explaining each error. Take your time as some of them may not jump out at you immediately.
+
+Though there may be more than one type of error each error only counts as one. For example, if you see that multiple graphs are missing a figure caption that still counts as one error, the error being no caption provided.
+
+<div class = "flag">
+Regardless of the fact that you are working in partners for your experimental project this assignment is an individual assignment and must be submitted on Canvas.
+</div>
+
+If you decide to work together please be cautious as plagiarism is a serious issue that comes up when students work together and as per your academic misconduct unit from last term has serious academic consequences.
+
+| Criteria | Description |
+| :--- | :--- |
+| Results | Includes graphs / figures. No raw data is provided outside of supplemental (not required). Clearly outlines the findings from the study. Flow is sensible with figures present immediately following paragraphs describing the results of figure. |
+| Figures | Are present. Figure selected is best for this type of data. All axes are labelled with units present where applicable and legends found. All figure present have been discussed in write up. Only averages are being shown. Appropriate statistical measures are present. Figures are clear and easy to interpret. No figures present without being discussed. |
+
+
+
