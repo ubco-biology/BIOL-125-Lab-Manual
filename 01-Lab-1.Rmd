@@ -94,7 +94,7 @@ Following this you will need to develop a recommendation report for your client 
 <div class = "note">
 **Note**
 
-To help you in this endeavour, you may wish to review the content from BIOL116 on experimental design – [Designing the Experiment](https://ubco-biology.github.io/BIOL-116-Lab-Manual/design-experiment-plan-analysis.html).
+To help you in this endeavour, you may wish to review the content from BIOL116 on experimental design – [Designing the Experiment](https://ubco-biology.github.io/BIOL-116-Lab-Manual/designing-the-experiment.html).
 </div>
 
 # Research Question {-}

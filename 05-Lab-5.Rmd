@@ -339,9 +339,9 @@ There is one sample graph included. Note how it references the figure to be incl
 
 ```
 root/
-  report/
+  report/20220101_Lab05_125_Assignment_V1.Rmd
   data/
-  figures/
+  figures/MVD_BIOL125-Lab5_Fig-1-Boxplot_V1.png
 ```
 
 If you make a mistake in setting this path, you\'ll get the following error in RStudio

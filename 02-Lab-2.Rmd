@@ -4,6 +4,8 @@
 
 *Last updated `r Sys.Date()`*
 
-This week\'s lab content can be found [here](https://ubco-biology.github.io/OS-Introduction/). You are asked to cover Part 2.
+This week\'s lab content is the second half of [Open Science: An Introduction](https://ubco-biology.github.io/OS-Introduction/).
+
+You are asked to cover Parts 2 and 3, [Open Science in Action: Benefits](https://ubco-biology.github.io/OS-Introduction/open-science-in-action-benefits.html), and [Open Science in Action: Challenges](https://ubco-biology.github.io/OS-Introduction/open-science-in-action-challenges.html), respectfully.
 
 The accompanying quiz can be found in [Canvas](https://canvas.ubc.ca/courses/90147).
