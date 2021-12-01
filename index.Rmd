@@ -63,6 +63,12 @@ Hay, T., Vis-Dunbar, M. (2021). *Biology 125 Lab Manual*. [https://ubco-biology.
 
 All source files are available [https://github.com/ubco-biology/BIOL-125-Lab-Manual](https://github.com/ubco-biology/BIOL-125-Lab-Manual).
 
+## UBCO Biology open materials {-}
+
+This resource is part of a larger project to host UBCO Biology lab materials in an open, accessible format.
+
+All BIOL open materials can be found at [https://ubco-biology.github.io/](https://ubco-biology.github.io/)
+
 ## Conventions {-}
 
 <div class = "flag">
