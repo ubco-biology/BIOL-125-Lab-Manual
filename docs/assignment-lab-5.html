@@ -23,7 +23,7 @@
 
 
 
-<meta name="date" content="2021-11-30" />
+<meta name="date" content="2021-12-01" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -78,18 +78,20 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">Your Title Here</a></li>
+<li><a href="./">Biology 125 Lab Manual</a></li>
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Welcome</a>
 <ul>
+<li class="chapter" data-level="" data-path="labs.html"><a href="labs.html"><i class="fa fa-check"></i>Labs</a></li>
+<li class="chapter" data-level="" data-path="assignments.html"><a href="assignments.html"><i class="fa fa-check"></i>Assignments</a></li>
+<li class="chapter" data-level="" data-path="absences.html"><a href="absences.html"><i class="fa fa-check"></i>Absences</a></li>
 <li class="chapter" data-level="" data-path="copyright.html"><a href="copyright.html"><i class="fa fa-check"></i>Copyright</a></li>
 <li class="chapter" data-level="" data-path="conventions.html"><a href="conventions.html"><i class="fa fa-check"></i>Conventions</a></li>
 </ul></li>
 <li class="part"><span><b>Lab 1</b></span></li>
 <li class="chapter" data-level="" data-path="welcome-1.html"><a href="welcome-1.html"><i class="fa fa-check"></i>Welcome</a>
 <ul>
-<li class="chapter" data-level="" data-path="lab-format.html"><a href="lab-format.html"><i class="fa fa-check"></i>Lab format</a></li>
 <li class="chapter" data-level="" data-path="your-first-project.html"><a href="your-first-project.html"><i class="fa fa-check"></i>Your first project</a></li>
 <li class="chapter" data-level="" data-path="but-first.html"><a href="but-first.html"><i class="fa fa-check"></i>But first…</a></li>
 </ul></li>
@@ -203,10 +205,6 @@
             <section class="normal" id="section-">
 <div id="assignment-lab-5" class="section level1 unnumbered">
 <h1>Assignment: Lab 5</h1>
-<div class="note">
-<p><strong>Note</strong></p>
-<p>See <a href="https://canvas.ubc.ca/">Canvas</a> for assignment due date.</p>
-</div>
 <p>Please use the following template for this assignment:</p>
 <p><a href="files/report/20220101_Lab05_125_Assignment_V1.Rmd">20220101_Lab05_125_Assignment_V1.Rmd</a> (3 KB)</p>
 <div class="flag">
@@ -224,7 +222,6 @@
 <div id="using-the-template" class="section level3 unnumbered">
 <h3>Using the template</h3>
 <div class="note">
-<p><strong>Remember</strong></p>
 <p>All the markdown syntax that you need for RMarkdown can be found in the <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/markdown-1.html">Markdown</a> section of the BIOL Procedures and Guidelines.</p>
 </div>
 </div>
@@ -248,7 +245,6 @@
 <li>The <code>output</code> tag defines the output format. Other options include <code>html_document</code> and <code>word_document</code>.</li>
 </ol>
 <div class="advanced">
-<p><strong>Deeper Dive: Optional</strong></p>
 <p>What exactly is YAML?</p>
 <blockquote>
 <p>YAML™ (rhymes with “camel”) is a human-friendly, cross language, Unicode based data serialization language designed around the common native data types of dynamic programming languages. It is broadly useful for programming needs ranging from configuration files to internet messaging to object persistence to data auditing and visualization.</p>
@@ -272,7 +268,7 @@
 <p>You’ll also note the following directly after the image path: <code>{width=50%}</code>. This reduces the image size by 50%. This works well for the images produced by the ShinyApp used in this course.</p>
 <p>As noted in the template, you do not need to write <code>Figure 1:</code> before your figures; this small piece of text is handled during the conversion from RMarkdown to pdf. Any other information that you would like to include in the caption should go in the <code>[]</code> before the <code>()</code> that contain the path to the image.</p>
 <div class="note">
-<p><strong>Figure placement</strong></p>
+<p>Figure placement</p>
 <p>The engine behind the conversion from RMarkdown to pdf is a typesetting application, one with pretty strict rules about how content should be formatted - much more strict than something like Microsoft Word.</p>
 <p>What this means is that if the placement of your images will disrupt your prose - by creating large amounts of empty white space for example - this typesetting application will <em>push</em> your figure to somewhere lower in your report where it won't create this white space.</p>
 <p>Your figures should be adjacent to the relevant text in your RMarkdown file. How this manifests to your pdf might look a little different; that's ok.</p>
@@ -349,7 +345,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["YourTitleHere.pdf", "YourTitleHere.epub"],
+"download": ["Biology 125 Lab Manual.pdf", "Biology 125 Lab Manual.epub"],
 "toc": {
 "collapse": "section",
 "scroll_highight": true

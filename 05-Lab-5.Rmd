@@ -19,8 +19,6 @@ Markdown is a powerful authoring tool. Part of what makes it powerful is it\'s i
 For this assignment, you will be learning RMarkdown and the environment in which we author `R` and RMarkdown documents - RStudio. You will not be expected to do your analysis in `R`.
 
 <div class = "note">
-**Note**
-
 Your Recommendation Report Draft will be submitted as both an RMarkdown document and a pdf. You will also need to include a copy of your data in long format saved as `.csv` and a `_DATA-DICTIONARY.md` file. More details on this in the following sections.
 
 While your Recommendation Report Draft should be approximately 5 double-spaced pages, Times New Roman and font size 12, if you\'re using RStudio and the templates provided in this class, you should only have to concern yourself with the length of your report; the rest of the formatting will be handled when you export from RMarkdown to pdf.
@@ -43,7 +41,7 @@ Start writing early! Students often make the mistake of starting the night befor
 Someone reading your report should be able to tell what question(s) you addressed, why the topic is important, how you tackled the problem, the types of data you will collect, and how your research helps to inform your client.
 
 <div class = "note">
-**Need help?**
+Need help?
 
 Book an appointment with the the [Student Learning Hub's writing consultants](https://students.ok.ubc.ca/academic-success/learning-hub/writing-language/)!
 </div>
@@ -61,8 +59,6 @@ A good report includes the following headings / sections
 * References
 
 <div class = "note">
-**Remember**
-
 The goal is to clearly describe to Farmer Elliot what your question was, how you went about answering it, what your results told you and what recommendations you have to help Farmer Elliot make his decision.
 </div>
 
@@ -163,8 +159,6 @@ RStudio is an IDE - an Integrated Development Environment - for `R`. This is jus
 Since RStudio is designed for working with `R`, we need to install both `R` and Rstudio. So let\'s do this.
 
 <div class = "note">
-**Note**
-
 If you\'re running a Chromebook, using a tablet, or don\'t want to install anything new on your computer, all of the Windows computers in the library have `R` and RStudio installed on them.
 
 While the `tinytex` package is installed on these machines, it\'s not loaded out of the box. So, you will need to run the following code in the console
@@ -202,8 +196,6 @@ Your RStudio window is comprised of 4 panes.
 For report authoring using RMarkdown, we\'ll mostly be concerned with the upper left pane. We\'ll occasionally use the console to run a bit of `R`. And we\'ll occasionally use the file manager to access files. We won\'t worry at all about the upper right pane - this will have more relevance when you start computing statistics in `R` using RStudio.
 
 <div class = "note">
-**Note**
-
 When you launch RStudio, unless you\'re opening an existing document, you will only see 3 panes, your console will be on the left, and your environment and output panes will be on the right. 
 </div>
 
@@ -212,8 +204,6 @@ When you launch RStudio, unless you\'re opening an existing document, you will o
 Being able to convert from markdown to pdf is not something we can do with the default install of `R`. We need to get two add-ons to be able to do this. Add-ons in `R` are called `packages`.  The first package we need to install is `rmarkdown`. The second is `tinytex`. `rmarkdown` handles the general process of reading through your report and getting it ready to be output to a different format. `tinytex` contains the necessary information to produce a `pdf`, so `rmarkdown` will use `tinytex` for that one part of the conversion process.
 
 <div class = "note">
-**Note**
-
 The `x` in `tinytex` is pronounced like a `k`, so should read more like `tinytek` or `tinytech`.
 </div>
 
@@ -255,7 +245,7 @@ That\'s it. You should be good to go to open the `.Rmd` template available in th
 | Introduction | Relevant background information provided. Clearly articulates how the background information is connected to the current project. Importance of this project has been described. Written well and easy to follow. Flows from more general and broad background information to the focus of the project. Hypothesis and questions posed are outlined at the end of this section. No factual errors are present. | 7 |
 | Methods | No bullet points. All methods and materials are clearly described. Easy to follow. Enough information has been provided for others to be able to reproduce the experiment. Data analysis procedure is also included. | 4 |
 | Experimental Design | Procedure is specific and addresses the question / problem. Data collection is clearly defined. Appropriate control (where applicable) has been used. Independent and dependent variables are identified. Student testing only one variable. | 5 |
-| Results | Includes graphs / figures. No raw data is provided outside of supplemental (not required). Clearly outlines the findings from the study. Flow is sensible with figures present immediately following paragraphs describing the results of figure. | 4 |
+| Results | Includes graphs / figures. No raw data is provided outside of supplemental. Clearly outlines the findings from the study. Flow is sensible with figures present immediately following paragraphs describing the results of figure. | 4 |
 | Figures | Are present. Figure selected is best for this type of data. All axes are labelled with units present where applicable and legends found. All figure present have been discussed in write up. Only averages are being shown. Appropriate statistical measures are present. Figures are clear and easy to interpret. No figures present without being discussed. | 7 |
 | Discussion & Recommendation | Student displays clear understanding of results. Student displays a clear understanding of the meaning of these results. Interpretation of results is founded in the data, observations and/or other studies. Recommendations are sound and based on the current study and / or other studies. | 4 |
 | Spelling & Grammar  | No spelling errors. No grammar errors. No awkward sentence structures. | 3 |
@@ -265,11 +255,6 @@ That\'s it. You should be good to go to open the `.Rmd` template available in th
 | **Total** |  | **50** |
 
 # Assignment: Lab 5 {-}
-<div class = "note">
-**Note**
-
-See [Canvas](https://canvas.ubc.ca/) for assignment due date.
-</div>
 
 Please use the following template for this assignment:
 
@@ -293,8 +278,6 @@ If you have any questions regarding your mark and / or the comments from your TA
 ### Using the template {-}
 
 <div class = "note">
-**Remember**
-
 All the markdown syntax that you need for RMarkdown can be found in the [Markdown](https://ubco-biology.github.io/Procedures-and-Guidelines/markdown-1.html) section of the BIOL Procedures and Guidelines.
 </div>
 
@@ -320,8 +303,6 @@ What might be nice to know.
 2. The `output` tag defines the output format. Other options include `html_document` and `word_document`.
 
 <div class = "advanced">
-**Deeper Dive: Optional**
-
 What exactly is YAML?
 
 > YAML™ (rhymes with “camel”) is a human-friendly, cross language, Unicode based data serialization language designed around the common native data types of dynamic programming languages. It is broadly useful for programming needs ranging from configuration files to internet messaging to object persistence to data auditing and visualization.
@@ -355,7 +336,7 @@ You'll also note the following directly after the image path: `{width=50%}`. Thi
 As noted in the template, you do not need to write `Figure 1:` before your figures; this small piece of text is handled during the conversion from RMarkdown to pdf. Any other information that you would like to include in the caption should go in the `[]` before the `()` that contain the path to the image.
 
 <div class = "note">
-**Figure placement**
+Figure placement
 
 The engine behind the conversion from RMarkdown to pdf is a typesetting application, one with pretty strict rules about how content should be formatted - much more strict than something like Microsoft Word.
 

@@ -2,32 +2,65 @@
   padding: 10px;
   margin: 20px 0px;
   border-radius: 5px;
+  border-left: 8px;
+  border-left-style: solid;
 }
 
 .note {
-  border: 1pt solid #0d4a7b;
+  border-color: #0d4a7b;
   background-color: #f0f7fd;
 }
 
+.note::before {
+  content: "Note";
+  font-weight: bold;
+  color: #0d4a7b;
+}
+
 .advanced {
-  border: 1pt solid #1f7b0d;
+  border-color: #1f7b0d;
   background-color: #f1fdf0;
 }
 
+.advanced::before {
+  content: "Optional Deeper Dive";
+  font-weight: bold;
+  color: #1f7b0d;
+}
+
 .takeAway {
-  border: 1pt solid #cccc00;
+  border-color: #cccc00;
   background-color: #ffffe6;
 }
 
+.takeAway::before {
+  content: "Highlight";
+  font-weight: bold;
+  color: #cccc00;
+}
+
 .flag {
-  border: 1pt solid #cc0000;
+  border-color: #cc0000;
   background-color: #ffe6e6;
+}
+
+.flag::before {
+  content: "Whoa!";
+  font-weight: bold;
+  color: #cc0000;
 }
 
 .caption {
   text-align: center;
 }
 
+blockquote {
+  color: #002145;
+}
+
+strong {
+  color: #002145;
+}
 img {
   display: block;
   margin-left: auto;

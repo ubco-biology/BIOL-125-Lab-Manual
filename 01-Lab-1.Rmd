@@ -4,24 +4,13 @@
 
 *Last updated `r Sys.Date()`*
 
-Welcome to the Biology 125 Labs for Biology for Science Majors II!
+Welcome to your first Biology 125 Lab for Biology for Science Majors II!
 
 For your first week your TA will spend a bit of time going over the lab schedule and mark breakdown, along with some safety information you will need to work in this space safely and professionally. Your TA will then get you going on your first project!
 
 <div class = "flag">
-Your TA will provide you with their contact information along with office hours and location. It is your responsibility to ensure you have this information readily available. </div>
-
-## Lab format {-}
-
-Labs will be run in both an asynchronous - online - and synchronous - on campus - format. Be mindful of the schedule.
-
-<div class = "flag">
-Failure to attend an on-campus lab due to students not reading their syllabus and schedule thoroughly will result in a mark of zero for that lab and an absence score of 2.5.
-
-You cannot exceed an absence score of 5 as this results in failing the lab. See your syllabus for details.
+Your TA will provide you with their contact information along with office hours and location. It is your responsibility to ensure you have this information readily available.
 </div>
-
-During the synchronous labs you may bring a lab coat but this is not required. Closed toed shoes and pants are required for this lab and your TA will turn you away if you are not in proper attire. Any goggles and gloves will be provided in lab. 
 
 ## Your first project {-}
 
@@ -92,8 +81,6 @@ Your TA will assign a specific property listing to you and your partner(s) and y
 Following this you will need to develop a recommendation report for your client Farmer Elliot.
 
 <div class = "note">
-**Note**
-
 To help you in this endeavour, you may wish to review the content from BIOL116 on experimental design – [Designing the Experiment](https://ubco-biology.github.io/BIOL-116-Lab-Manual/designing-the-experiment.html).
 </div>
 
@@ -181,8 +168,6 @@ By specifing a proposed relationship that articulates our variables, not only ca
 * H<sub>a</sub>: fertilizer x will have no impact on the quantity of fruit set of Vigna radiata.
 
 <div class = "advanced">
-**Deeper Dive: Optional**
-
 Reproducibility, meta-analyses, and the evidence base
 
 When we reproduce a study, we always know that there is a chance of error or bias resulting from our sample not being truly representative of its population, for any number of reasons including sampling error, lack of power etc. This is why we should never rely on the findings of just one study.
@@ -213,12 +198,6 @@ So, please review the content on [directory structure management](https://ubco-b
 Please use the following template for this assignment:
 
 [20220101_Lab01_125_Protocol-Assignment_V2.docx](files/20220101_Lab01_125_Protocol-Assignment_V2.docx) (17 KB)
-
-<div class = "note">
-**Note**
-
-See [Canvas](https://canvas.ubc.ca/) for assignment due date.
-</div>
 
 ### Putting it into practice {-}
 

@@ -31,33 +31,25 @@ If you are wanting to increase your sample size and thus are doing more trials e
 
 # Assignment: Lab 3 {-}
 
-<div class = "note">
-**Note**
-
-See [Canvas](https://canvas.ubc.ca/) for assignment due date.
-
-Failure to submit properly or submitting an incorrect document will be penalized. Assignments submitted within 24 hours of the due date will receive a 10% penalty and no submissions will be accepted after that.
-</div>
-
 Writing a report can be extremely daunting and confusing especially if you have not written many of them. Many students struggle to know what information goes in what part of a report and in particular what should be included in a results section and what should not.
 
-In order to help you better understand how to write a results section you are asked to edit the results section of the following docuemt:
+In order to help you better understand how to write a results section you are asked to edit the results section of the following document:
 
-* FILE UPLOAD PENDING
+* [Lab-03_Results_Assignment.pdf](files/lab-3_report/Lab-03_Results_Assignment.pdf) (306 KB)
 
-The results example section contains at least 10 errors. Using the rubric for writing a good results section - found on [Canvas](https://canvas.ubc.ca), in [Lab 5](05-Lab-5#rubric.html), and pasted below - and the information provided, you must edit this results section by clearly identifying and explaining each error. Take your time as some of them may not jump out at you immediately.
+This results example section contains at least 10 errors. Using the rubric for writing a good results section - found on [Canvas](https://canvas.ubc.ca), in [Lab 5](05-Lab-5#rubric.html), and pasted below - and the information provided, you must edit this results section by clearly identifying and explaining each error. Take your time as some of them may not jump out at you immediately.
 
 Though there may be more than one type of error each error only counts as one. For example, if you see that multiple graphs are missing a figure caption that still counts as one error, the error being no caption provided.
 
 <div class = "flag">
-Regardless of the fact that you are working in partners for your experimental project this assignment is an individual assignment and must be submitted on Canvas.
+Regardless of the fact that you are working in partners for your experimental project this assignment is an individual assignment.
 </div>
 
 If you decide to work together please be cautious as plagiarism is a serious issue that comes up when students work together and as per your academic misconduct unit from last term has serious academic consequences.
 
 | Criteria | Description |
 | :--- | :--- |
-| Results | Includes graphs / figures. No raw data is provided outside of supplemental (not required). Clearly outlines the findings from the study. Flow is sensible with figures present immediately following paragraphs describing the results of figure. |
+| Results | Includes graphs / figures. No raw data is provided outside of supplemental. Clearly outlines the findings from the study. Flow is sensible with figures present immediately following paragraphs describing the results of figure. |
 | Figures | Are present. Figure selected is best for this type of data. All axes are labelled with units present where applicable and legends found. All figure present have been discussed in write up. Only averages are being shown. Appropriate statistical measures are present. Figures are clear and easy to interpret. No figures present without being discussed. |
 
 
