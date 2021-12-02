@@ -3,6 +3,8 @@ bookdown::gitbook:
     in_header: google_analytics.html
   split_by: section
   css: styles.css
+  search:
+      engine: lunr
   config:
     toc:
       collapse: section
