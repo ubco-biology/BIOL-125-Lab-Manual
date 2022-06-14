@@ -14,12 +14,12 @@ At this stage, you\'ve drafted a protocol, set up your experiment, collected som
 
 The basic syntax used in Markdown can be found in the [BIOL Procedures and Guidelines](https://ubco-biology.github.io/Procedures-and-Guidelines/markdown-1.html). In the Procedures and Guidelines you are introduced to generic text editors for writing Markdown.
 
-Markdown is a powerful authoring tool. Part of what makes it powerful is it\'s integration with other tools, such as `R`. in BIOL202 you will be introduced to statistical analyses using `R`. You will also be asked to author reports using `R` and RMarkdown - [RMarkdown is one flavour of Markdown](https://ubco-biology.github.io/Procedures-and-Guidelines/markdown-flavours.html). Remember, the content that you\'re reading right now is all authored using `R` - when there\'s analyses being presented - and RMarkdown.
+Markdown is a powerful authoring tool. Part of what makes it powerful is it\'s integration with other tools, such as <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#R">`R`</a>. in BIOL202 you will be introduced to <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Statistical-analysis">statistical analyses</a> using `R`. You will also be asked to author reports using `R` and RMarkdown - [RMarkdown is one flavour of Markdown](https://ubco-biology.github.io/Procedures-and-Guidelines/markdown-flavours.html). Remember, the content that you\'re reading right now is all authored using `R` - when there\'s analyses being presented - and RMarkdown.
 
 For this assignment, you will be learning RMarkdown and the environment in which we author `R` and RMarkdown documents - RStudio. You will not be expected to do your analysis in `R`.
 
 <div class = "note">
-Your Recommendation Report Draft will be submitted as both an RMarkdown document and a pdf. You will also need to include a copy of your data in long format saved as `.csv` and a `_DATA-DICTIONARY.md` file. More details on this in the following sections.
+Your Recommendation Report Draft will be submitted as both an RMarkdown document and a pdf. You will also need to include a copy of your data in long format saved as <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Comma-separated-values-(CSV)-file">`.csv`</a> and a `_DATA-DICTIONARY.md` file. More details on this in the following sections.
 
 While your Recommendation Report Draft should be approximately 5 double-spaced pages, Times New Roman and font size 12, if you\'re using RStudio and the templates provided in this class, you should only have to concern yourself with the length of your report; the rest of the formatting will be handled when you export from RMarkdown to pdf.
 </div> 
@@ -74,7 +74,7 @@ In less than 250 words, the reader should be able to attain the most crucial asp
 
 ### Data availablity statement {-}
 
-As we learned in BIOL116, when appropriate and feasible, the data underlying our analyses should be made available. You will be asked to submit a `.csv` file of your data in long format. You may wish to review the content from BIOL116 on [Preparing Your Data](https://ubco-biology.github.io/BIOL-116-Lab-Manual/preparing-your-data.html) and the content on [Tidy Data](https://ubco-biology.github.io/Procedures-and-Guidelines/tidy-data.html) from the BIOL Procedures and Guidelines. You will also be asked to submit a `_DATA-DICTIONARY.md` file describing your data. Refer back to the [Data Dictionary](https://ubco-biology.github.io/Procedures-and-Guidelines/data-dictionary.html) section of the BIOL Procedures and Guildelines for guidance and an example.
+As we learned in BIOL116, when appropriate and feasible, the data underlying our analyses should be made available. You will be asked to submit a `.csv` file of your data in <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Long-format-data">long format</a>. You may wish to review the content from BIOL116 on [Preparing Your Data](https://ubco-biology.github.io/BIOL-116-Lab-Manual/preparing-your-data.html) and the content on [Tidy Data](https://ubco-biology.github.io/Procedures-and-Guidelines/tidy-data.html) from the BIOL Procedures and Guidelines. You will also be asked to submit a `_DATA-DICTIONARY.md` file describing your data. Refer back to the [Data Dictionary](https://ubco-biology.github.io/Procedures-and-Guidelines/data-dictionary.html) section of the BIOL Procedures and Guildelines for guidance and an example.
 
 <div class = "takeAway">
 This is a short statement that indicates if data is available and if it is, how it can be acquired.
@@ -114,7 +114,7 @@ The steps should flow logically, and, while being concise, you should not use bu
 
 The results section is where you will describe what you saw. That is, what the response was to your variable. This should be the driest and easiest section to write as you are just stating what you found and nothing more. There should be no mention of what you did to attain this data or how you went about doing it - that\'s for your methods section. This is not where you describe why you saw what you saw - that\'s for your discussion and recommendations section. Nor is it where you try and tie in other research to your research - that\'s for your introduction and discussion sections.
 
-The results section should include all averaged data from observations during your experiment. This includes charts, tables, graphs, and any other illustrations of data you feel best represents the information you would like to convey. It should not include any raw data. Raw data should be attached as a separate file.
+The results section should include all averaged data from observations during your experiment. This includes charts, tables, graphs, and any other illustrations of data you feel best represents the information you would like to convey. It should not include any raw data. <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Raw-data">Raw data</a> should be attached as a separate file.
 
 Depending on the information you wish to convey you may feel that a box plot, bar graph or line graph is most descriptive. Whichever way you decide think about what message you are trying to convey and ask yourself if an audience was to quickly look at your graph would they get that messaging easily. If not, you should look at an alternative way to display your graph. Your TA will be able to help you sort this out as well. 
 
@@ -152,7 +152,7 @@ For formatting guidance, refer to the [APA section](https://ubco-biology.github.
 
 ## RMarkdown and RStudio {-}
 
-When you\'re writing `readme` files and `data-dictionaries` - or even taking notes in class - a text editor like Atom is extremely convenient and versatile. When it comes to authoring reports, however, we\'re going to move you into RStudio.
+When you\'re writing `readme` files and `data-dictionaries` - or even taking notes in class - a text editor like VS Code is extremely convenient and versatile. When it comes to authoring reports, however, we\'re going to move you into RStudio.
 
 RStudio is an IDE - an Integrated Development Environment - for `R`. This is just a fancy way of saying that it\'s an application that helps you write `R` code. In BIOL202 and BIOL228, you\'ll start using RStudio to do analyses in `R`. Right now, we\'re just using RStudio to write in RMarkdown and to get used to using the RStudio environment. Along the way, we'll see some `R` code as we get things set up.
 
@@ -265,7 +265,7 @@ You will need to submit 4 files for this assignment:
 
 * Recommendation report as `.Rmd`
 * Recommendation report as `.pdf`
-* Data in long, tidy, format as `.csv`
+* Data in <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Long-format-data">long</a>, tidy, format as <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Comma-separated-values-(CSV)-file">`.csv`</a>
 * Data dictionary as `.md`
 </div>
 

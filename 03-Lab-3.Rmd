@@ -19,7 +19,7 @@ During this lab, you will...
 
 ### Collecting data {-}
 
-You will need to set up your data recording tool - you sketched this out in your protocol and now you\'ll need to implement it. Keep in mind that at some point you\'ll need to submit your data as a `.csv` file. How you record your data now might save you time later on.
+You will need to set up your data recording tool - you sketched this out in your protocol and now you\'ll need to implement it. Keep in mind that at some point you\'ll need to submit your data as a <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Comma-separated-values-(CSV)-file">`.csv`</a> file. How you record your data now might save you time later on.
 
 When collecting data be sure to take notes on any and all observations. These will be very important in helping you interpret your data later on. Take your time when recording and organizing your data.
 

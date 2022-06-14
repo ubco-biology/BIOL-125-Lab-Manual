@@ -30,7 +30,7 @@ If you have a guess send me an email at [trisyn.hay@ubc.ca](mailto:trisyn.hay@ub
 
 This research project will have you looking at specific environmental features - climate, exposure, chemistry - to answer a pretty practical real world problem: will a piece of arable land support the cultivation of a specific crop.
 
-You will be expected to design a study, collect data and report on your findings. You will be recording your data and authoring your report following Open Science best practices, namely, ensuring that your work is transparent, reproducible and well documented.
+You will be expected to design a study, collect data and report on your findings. You will be recording your data and authoring your report following <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Open-science">Open Science</a> best practices, namely, ensuring that your work is <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Research-transparency">transparent</a>, <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Reproducibility">reproducible</a> and well documented.
 
 In this lab, we\'ll be introduced to the problem, explore how to propose a research question to address the issue and scope out a study design that includes what data we\'ll need to collect, how we\'ll organize that data, and how we propose to analyze that data. You\'ll also get things set up to run your first experiment in Lab 3.
 
@@ -88,17 +88,17 @@ To help you in this endeavour, you may wish to review the content from BIOL116 o
 
 First things first, we need a good research question.
 
-In BIOL116 you were introduced to experimental design and hypothesis testing. One of the things we didn\'t touch on in great detail was how to develop a research question.
+In BIOL116 you were introduced to experimental design and <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Hypothesis-testing">hypothesis testing</a>. One of the things we didn\'t touch on in great detail was how to develop a research question.
 
 <div class = "takeAway">
 How you formulate your research question will impact what you study and how you conduct that study.
 </div>
 
-When we think about transparency and reproducibility in research design and implementation, every step we take and every decision we make is predicated on earlier decisions; and things begin with a research question. Well, to be fair, developing a research question is an iterative process, but it underpins so many future decisions - it will inform your hypothesis – after all, your hypothesis is the testable statement that addresses your research question – which will then inform your study design and so on. So, we shouldn\'t gloss over it\'s importance!
+When we think about transparency and reproducibility in research design and implementation, every step we take and every decision we make is predicated on earlier decisions; and things begin with a research question. Well, to be fair, developing a research question is an iterative process, but it underpins so many future decisions - it will inform your <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Hypothesis">hypothesis</a> – after all, your hypothesis is the testable statement that addresses your research question – which will then inform your study design and so on. So, we shouldn\'t gloss over it\'s importance!
 
 ## A good research question {-}
 
-A good research question will help to limit many biases that Open Science is trying to combat in the conduct of research, including HARKing and making decisions after having looked at one\'s data.
+A good research question will help to limit many biases that Open Science is trying to combat in the conduct of research, including <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#HARKing">HARKing</a> and making decisions after having looked at one\'s data.
 
 A good research question is primarily informed by two things:
 
@@ -133,7 +133,7 @@ Since the research question informs the hypothesis, which then guides your desig
 
 Using the word **what** re-enforces this less than concise formulation of the research question. In fact, predicating your question with **what** or **why** doesn\'t allow your question to ask exactly what you need it to ask.
 
-In experimental design, we\'re testing for relationships - asking \"is there a relationship?\". In fact, we\'re asking a question that allows for the proposal of a hypothesis; a prediction of what that relationship might be. So, we should think about how we can ask a question that reflects the test or experiment we\'re planning.
+In experimental design, we\'re testing for relationships - asking \"is there a relationship?\". In fact, we\'re asking a question that allows for the proposal of a hypothesis; a <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Prediction">prediction</a> of what that relationship might be. So, we should think about how we can ask a question that reflects the test or experiment we\'re planning.
 
 ### A succinct question {-}
 
@@ -162,7 +162,7 @@ Compare this with what we had before
 
 > What is the impact of fertilizer x on the growth of mung beans?
 
-By specifing a proposed relationship that articulates our variables, not only can we now test this question directly, it identifies exactly what we\'re interested in testing, and it\'s concise, which means that we can then readily propose a hypothesis and null hypothesis to address it:
+By specifing a proposed relationship that articulates our variables, not only can we now test this question directly, it identifies exactly what we\'re interested in testing, and it\'s concise, which means that we can then readily propose a hypothesis and <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Null-hypothesis">null hypothesis</a> to address it:
 
 * H<sub>o</sub>: fertilizer x will increase the quantity of fruit set of Vigna radiata.
 * H<sub>a</sub>: fertilizer x will have no impact on the quantity of fruit set of Vigna radiata.
@@ -170,13 +170,13 @@ By specifing a proposed relationship that articulates our variables, not only ca
 <div class = "advanced">
 Reproducibility, meta-analyses, and the evidence base
 
-When we reproduce a study, we always know that there is a chance of error or bias resulting from our sample not being truly representative of its population, for any number of reasons including sampling error, lack of power etc. This is why we should never rely on the findings of just one study.
+When we reproduce a study, we always know that there is a chance of error or <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Bias">bias</a> resulting from our sample not being truly representative of its population, for any number of reasons including sampling error, lack of <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Study-power-(aka-statistical-power)">power</a> etc. This is why we should never rely on the findings of just one study.
 
 A meta-analysis is a study of already conducted studies to try and determine if across a series of studies addressing the same research question there is enough agreement in the findings to accept one conclusion, even though this conclusion may be contradicted by individual studies.
 
-Replication enables this aggregation of findings, helping to sift through studies that have suffered from systematic error. To do this well, meta-analyses rely on documentation and homogeneity; studies that use similar methods, instruments, and techniques to address the same question and describe in detail how this was done. This is because comparing two studies of the same phenomenon with two different research questions and two different methodological approaches and data collection tools is extremely confounding and limiting.
+<a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Replication">Replication</a> enables this aggregation of findings, helping to sift through studies that have suffered from systematic error. To do this well, meta-analyses rely on documentation and homogeneity; studies that use similar methods, instruments, and techniques to address the same question and describe in detail how this was done. This is because comparing two studies of the same phenomenon with two different research questions and two different methodological approaches and data collection tools is extremely confounding and limiting.
 
-Meta-analyses are based on extremely comprehensive literature reviews, reviews that attempt to uncover all literature – published and unpublished – addressing a given research question. Your research question not only informs your hypothesis and study design, it also frames your title and abstract, whether for a lab report, poster, or one day a manuscript. Expressing your research question in a way that clearly and succinctly outlines the variables you plan to test makes the inclusion of your results in a meta-analysis more likely, as your work will be more easily discovered and identified.
+Meta-analyses are based on extremely comprehensive <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Literature-review">literature reviews</a>, reviews that attempt to uncover all literature – published and unpublished – addressing a given research question. Your research question not only informs your hypothesis and study design, it also frames your title and abstract, whether for a lab report, poster, or one day a manuscript. Expressing your research question in a way that clearly and succinctly outlines the variables you plan to test makes the inclusion of your results in a meta-analysis more likely, as your work will be more easily discovered and identified.
 
 In fact, with this in mind, if you were conducting your mung bean research for a particular plot of land in a particular region, this might impact the variables you choose to work with, and you might end up with a still more concise research question that would allow for identification of potential homogeneity and then for comparing your data against other similar studies in a meaningful way. So, for example, in the Okanagan, your research question might be adjusted to
 
@@ -185,7 +185,7 @@ In fact, with this in mind, if you were conducting your mung bean research for a
 
 # Research Data Management {-}
 
-Once we know what we want to ask, we need to consider how we\'re going to organize our project and it\'s data. How we do this - Research Data Management or RDM for short - is a critical component of reproducibility and transparency in the sciences.
+Once we know what we want to ask, we need to consider how we\'re going to organize our project and it\'s data. How we do this - <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#File-and-data-management">Research Data Management</a> or RDM for short - is a critical component of reproducibility and transparency in the sciences.
 
 In BIOL116, you were introduced to best practices in file naming. You may wish to [review that content](https://ubco-biology.github.io/Procedures-and-Guidelines/file-naming.html). In this lab, you\'ll be looking at best practices in directory structure management; that is, how we organize our individual files.
 
