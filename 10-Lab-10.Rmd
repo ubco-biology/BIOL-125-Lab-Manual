@@ -1,0 +1,77 @@
+# (PART\*) Lab 10 {-}
+
+# Fictional Animal Systems Project {-}
+
+*Last updated `r Sys.Date()`*
+
+*This assignment was developed from the article \"The Fictional Animal Project: a Tool for Helping Students Integrate Body Systems\".  Adv. Physiol. Educ 41: 239-243 Blatch et al. 2017*
+
+In the year 2146, biodiversity is dangerously low and the United Nations has developed a machine that randomly creates animals with varying designs for body systems and other physiological aspects. One example is a homeotherm with unidirectional ventilation, an open circulatory system, an excretory system that secretes only, and an incomplete digestive tract. In order to better understand the animals created and their ability to adapt to their environments, you have been asked to render a detailed anatomical \“blueprint\” of these animals, provide their scientific name, describe the relationships between the animal\'s form and function, between function and environment and provide a detailed diagram of its life cycle.  This information will need to be presented to the \“Zoological Society\” in the form of a PowerPoint presentation.  Using a random generator your TA will assign your animal design combination during this week\’s labs. 
+
+Learning goals:
+
+* Understand system integration
+* Recognize the effects of adaptations relevant to the environment
+* Consider potential trade-offs and physiological constraints.
+* Solid understanding of the various animal systems which occur in nature and how they influence one another
+* Understand the anatomy involved in each of these systems within their designated animal
+
+The presentation should fit onto one poster paper (approximately 24X36) and include the following information via diagrams/images and/or verbally:
+
+* Blueprint of your animal; a detailed diagram of your organism including all systems and their relevant structures. Flow/current direction within the relevant systems should also be indicated.  Remember to include a diagram of the exterior of your organism
+* The scientific name of your organism
+* A description of your animals\’ structure and function:
+  - The description should align with your diagram
+  - Describe each system and how it works and be sure to include all structures relevant to that system
+  - Describe how each system interacts with each other
+
+* A description of the habitat your organism would be found in how its structures are adapted for that environment
+* Detailed drawing of your organism\’s life cycle to include;
+  - Any forms it takes on at the different stages of its cycle
+  - What part of the life cycle is haploid and diploid
+  - Where mitosis and meiosis occur
+  - Sexual or asexual reproduction
+
+Examples of types of questions to think about when working through your report:
+
+1. Does the circulatory fit with the respiratory system? Why or why not? Your explanation cannot be only because the combination exists in a real animal. Use your diagram to help you figure it out.
+2. Does my organism’s digestive system fit with the excretory system? Why or why not? 
+3. What might be an adaptive advantage of the combination of the systems you were assigned?
+4. What might be an adaptive disadvantage of the combination of the systems you were assigned?
+5. What constraints might be placed on the physiological process of each system by the combination of anatomic structures found in your animal?
+
+Additional instructions for the final project:
+
+Describe an environment it would thrive in.  Be specific.  Explain why the animal thrives in that environment.
+
+# Animal Systems Presentation Prep {-}
+
+You and your partner will be required to give a 5-minute presentation with each member presenting the same amount of time. Your presentation must be done using standard poster size paper 27 X 40 approximately. Your group will be given a grade for the quality of your oral presentation. It is important that you;
+
+* Outline your talk as early as possible
+* Get together to organize and practice the presentation so the timing is accurate and you do not repeat information
+* Remember that your goal is to present material in a clear, succinct and interesting manner.
+
+Suggestions for Content and Structure:
+
+* Plan a strong, clear beginning and ending.
+* Provide a clear context for your work. Your introduction should include the objective and biological context of your study.
+* Include your hypotheses and prediction.
+* Present your materials and methods in a simple or streamlined manner. Keep it short and simple.
+
+Presentation pointers for you:
+
+* Practice over and over and over again until you can flow through the material without any hesitation. This will help ensure you have a handle on the material when you are nervous up at the front of the class. Take the opportunity to practice your presentation in the class
+* Get ready to perform. This is a performance! Know your lines and your subject.
+* Memorizing your lines can be problematic as you may start to sound too scripted. Use bullet points to help tell you what to talk about instead. Remember you are telling a story.
+  - In order to help deal with nerves before a presentation work out slowing your breathing, visualize yourself giving a relaxed talk and even tell yourself you are confident. You may even want to \“power pose\” it! For those that don\’t watch
+Grey’s Anatomy this is when you stand like superman or superwomen right before attempting something that makes you nervous. There are studies indicating this is very successful but at the very least it’s not going to hurt right?
+
+* Walk confidently to the front of the room to get you in the right frame of mind
+* Stand tall when you are up there and keep your chest lifted. Remember you totally got this!
+* Above all…smile! You will instantly appear more relaxed and research shows that smiling can actually reduce your stress level. Plus, there is the added benefit of people enjoying the interaction more as you don’t look like you are totally miserable up there ☺.
+* Speak up. People want to hear what you have to say so make sure they can.
+* Take your time. For you it\’s going to feel like its lasting forever but for your audience you may come across like you just had two coffees and a Red bull. Allow for those \“awkward\” pauses as for the audience it will actually sound more normal.
+* Talk to the audience and not your screen or cue cards. You should know the information so well that all you need is a quick bullet point to get you talking.
+* Keep to the time frame. This is where giving yourself lots of practice time will help out.
+Use the rubric provided to ensure you have covered all requirements of this assignment in order to attain the best possible outcome.

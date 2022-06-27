@@ -1,0 +1,156 @@
+# (PART\*) Lab 11 {-}
+
+# Fictional Animal Systems Presentation {-}
+
+*Last updated `r Sys.Date()`*
+
+### Overview of the Week {-}
+
+Your TA will pre-determine the order of your presentations and will let you know ahead of time.  Please ensure you are ready to go.  As this is the last lab and it requires a presentation during your scheduled lab section there will not be the option to submit 24 hours late.
+
+# Presentation Rubric {-}
+
+**Total /33**
+
+### System Description {-}
+
+**/7**
+
+**Criteria**
+
+* All 5 systems were represented
+* At least 2 structures from each system were identified
+* The digestive system was clearly explained
+* The circulatory system was clearly explained
+* The excretory system was clearly explained
+* The respiratory system was clearly explained
+* The reproductive system was clearly explained
+
+| Points                     | Criteria                          |
+|----------------------------|-----------------------------------|
+| Exceeds Expectations 7 pts | All 7 criteria were met           |
+| Excellent 6 pts            | 6 of the 7 criteria were met      |
+| Proficient 5 pts           | 5 of the 7 criteria were met      |
+| Fair 4 pts                 | 4 of the 7 criteria were met      |
+| Unsatisfactory 3 pts       | 3 of the 7 criteria were met      |
+| Poor 2 pts                 | 2 of the 7 criteria were met      |
+| Unacceptable 1 pt          | Only 1 of the 7 criteria were met |
+| Absent  0 pts              | No criteria were met              |
+
+### System Integration {-}
+
+**/5**
+
+**Criteria**
+
+* Integration between the respiratory and circulatory system were explained well
+* Appropriate structures within the respiratory and circulatory were used when describing the compatibility
+* Integration between the excretory and digestive system were explained well
+* Appropriate structures within the digestive and excretory system were used when describing the compatibility
+* Explanation of the integration of these systems flowed well and was easy to follow
+
+| Points             | Criteria                          |
+|--------------------|-----------------------------------|
+| Excellent 5 pts    | All 5 criteria were met           |
+| Proficient 4 pts   | 4 of the 5 criteria were met      |
+| Satisfactory 3 pts | 3 of the 5 criteria were met      |
+| Poor 2 pts         | 2 of the 5 criteria were met      |
+| Unacceptable 1 pt  | Only 1 of the 5 criteria were met |
+| Absent  0 pts      | No criteria were met              |
+
+### Life Cycle {-}
+
+**/6**
+
+**Criteria**
+
+* All relevant reproductive structures have been identified
+* Type of reproduction has been made clear
+* Full description of the reproductive process has been provided
+* Life cycle has been provided and explained
+* All relevant structures of the life cycle have been properly identified
+* Ploidy of structures has been clearly shown
+
+| Points             | Criteria                          |
+|--------------------|-----------------------------------|
+| Excellent 6 pts    | All criteria were met             |
+| Proficient 5 pts   | 5 of the 6 criteria were met      |
+| Good 4 pts         | 4 of the 6 criteria were met      |
+| Satisfactory 3 pts | 3 of the 6 criteria were met      |
+| Poor 2 pts         | 2 of the 6 criteria were met      |
+| Unacceptable 1 pt  | Only 1 of the 6 criteria were met |
+| Absent  0 pts      | No criteria were met              |
+
+### Environment and System Compatability {-}
+
+**/4**
+
+**Criteria**
+
+* Clearly explains how the respiratory system of the animal works with its environment
+* Clearly explains how the circulatory system of the animal works with its environment
+* Clearly explains how the digestive system of the animal works with its environment
+* Clearly explains who the excretory system of the animal works with its environment
+
+| Points             | Criteria                          |
+|--------------------|-----------------------------------|
+| Excellent 4 pts    | All criteria were met             |
+| Proficient 3 pts   | 3 of the 4 criteria were met      |
+| Satisfactory 2 pts | 2 of the 4 criteria were met      |
+| Unacceptable 1 pt  | Only 1 of the 4 criteria were met |
+| Absent  0 pts      | No criteria were met              |
+
+### Environment - Morphological and Behavioural Adaptations {-}
+
+**/3**
+
+**Criteria**
+
+* Clear description of how the animal has adapted to live in its environment behaviorally
+* Clear description of how the animals had adapted physically (body structure, types of appendages, etc) to live in their environment
+* Structures involved in helping to adapt the animal to its environment are clearly articulated
+
+| Points             | Criteria                          |
+|--------------------|-----------------------------------|
+| Excellent 3 pts    | All criteria were met             |
+| Satisfactory 2 pts | 2 of the 3 criteria were met      |
+| Unacceptable 1 pt  | Only 1 of the 3 criteria were met |
+| Absent  0 pts      | No criteria were met              |
+
+### Presentation {-}
+
+**/5**
+
+**Criteria**
+
+* Presentation was clear and easy to follow
+* Volume of all presenters was appropriate
+* Presenters shared in the presentation equally
+* All presenters were engaging and showed enthusiasm for their project
+* All presenters displayed a solid understanding of their animal and the corresponding systems
+
+| Points             | Criteria                          |
+|--------------------|-----------------------------------|
+| Excellent 5 pts    | All 5 criteria were met           |
+| Proficient 4 pts   | 4 of the 5 criteria were met      |
+| Fair 3 pts | 3 of the 5 criteria were met      |
+| Unsatisfactory 2 pts         | 2 of the 5 criteria were met      |
+| Unacceptable 1 pt  | Only 1 of the 5 criteria were met |
+| Absent  0 pts      | No criteria were met              |
+
+### Plagiarism and In-Text Citations {-}
+
+**/3**
+
+**Criteria**
+
+* No plagiarism of any kind
+* In-text citations were used when appropriate and followed APA format
+* References were provided
+
+| Points             | Criteria                          |
+|--------------------|-----------------------------------|
+| Excellent 3 pts    | All criteria were met             |
+| Satisfactory 2 pts | 2 of the 3 criteria were met      |
+| Unacceptable 1 pt  | Only 1 of the 3 criteria were met |
+| Absent  0 pts      | No criteria were met              |

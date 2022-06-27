@@ -1,0 +1,26 @@
+# (PART\*) Lab 7 {-}
+
+# Animal Systems I: Part Two {-}
+
+*Last updated `r Sys.Date()`*
+
+### Overview of the Week {-}
+
+Breakdown:
+
+1. Come to lab ready on campus
+2. Get assigned an animal and a group by your TA
+3. Build a quiz for your fellow students in the lab
+4. Complete two quizzes written by your fellow students in the lab
+5. Submit Assignment #4 before the end of the lab.  Ensure all members have submitted a copy or those students missing a submission will receive a zero for the assignment and an absence score of 2.5.
+
+Last lab you spent a tremendous amount of time learning about annelids, molluscs, and arthropods through videos, images, guides, and quizzes.  Now, this week you will get to see these animals up close and personal!
+
+For this week, you will be placed in groups and will be performing some dissections!  Though not required, if you have lab coats please feel free to bring them along.  All needed gloves and eye protection will be provided in the lab.  For those of you who are not comfortable with dissections please know that you can still participate in the activity without having to do the actual dissection.
+
+Make notes and work together as a team to learn, not only about the animal you will be assigned but also those of the other groups, and make a quiz to test other students\' knowledge about your animal.  Your TA will provide more details about the logistics of how this will work in the lab.  In either case, have fun and enjoy the process!
+
+# Assignment: Lab 7 {-}
+
+Click [here](files/Lab7_Assignment.pdf) to download a copy of the Assignment.
+

@@ -1,0 +1,23 @@
+# (PART\*) Lab 9 {-}
+
+# Animal Systems II {-}
+
+*Last updated `r Sys.Date()`*
+
+### Overview of the Week {-}
+
+Breakdown:
+
+1. Come to lab ready on campus
+2. Get assigned an animal and a group by your TA
+3. Build a dissection presentation for your fellow students in the lab.  Remember to add two errors to your presentation.
+4. Submit Assignment #8 before the end of the lab.  Ensure all members have submitted a copy or those students missing a submission will receive a zero for the assignment and an absence score of 2.5.
+The last lab you spent a tremendous amount of time learning about echinoderms and chordates through videos, images, guides, and quizzes.  Now, this week you will get to see these animals up close and personal!
+
+For this lab, you will be placed in groups and will be performing some dissections!  Though not required, if you have lab coats please feel free to bring them along.  All needed gloves and eye protection will be provided in the lab.  For those of you who are not comfortable with dissections please know that you can still participate in the activity without having to do the actual dissection.
+
+Make notes and work together as a team to learn about these groups.  You and your group will create a dissection which you will then present to the other groups at your table.  You will need to identify each structure and its function to your group.  In order to make sure your peers are paying attention you must make up and/or incorrectly label two structures.  The job of your peers is to now figure out which structure you presented incorrectly.   Your TA will provide more details about the logistics of how this will work in the lab.  In either case, have fun and enjoy the process!
+
+# Assignment: Lab 9 {-}
+
+Click [here](files/Lab9_Assignment.pdf) to download a copy of the Assignment.

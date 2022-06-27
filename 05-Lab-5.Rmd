@@ -235,25 +235,6 @@ tinytex::install_tinytex()
 
 That\'s it. You should be good to go to open the `.Rmd` template available in the Assignment tab for this lab.
 
-
-# Rubric: Lab 5 {-}
-
-| Criteria | Description | Pts |
-| :--- | :--- | ---: |
-| Abstract  | Brief, no more than 250 words. Clearly outlines the question / problem. Clearly describes how the question/problem was addressed. Results and recommendations are provided. | 4 |
-| Data Availability | Data availability statement is present. | 1 |
-| Introduction | Relevant background information provided. Clearly articulates how the background information is connected to the current project. Importance of this project has been described. Written well and easy to follow. Flows from more general and broad background information to the focus of the project. Hypothesis and questions posed are outlined at the end of this section. No factual errors are present. | 7 |
-| Methods | No bullet points. All methods and materials are clearly described. Easy to follow. Enough information has been provided for others to be able to reproduce the experiment. Data analysis procedure is also included. | 4 |
-| Experimental Design | Procedure is specific and addresses the question / problem. Data collection is clearly defined. Appropriate control (where applicable) has been used. Independent and dependent variables are identified. Student testing only one variable. | 5 |
-| Results | Includes graphs / figures. No raw data is provided outside of supplemental. Clearly outlines the findings from the study. Flow is sensible with figures present immediately following paragraphs describing the results of figure. | 4 |
-| Figures | Are present. Figure selected is best for this type of data. All axes are labelled with units present where applicable and legends found. All figure present have been discussed in write up. Only averages are being shown. Appropriate statistical measures are present. Figures are clear and easy to interpret. No figures present without being discussed. | 7 |
-| Discussion & Recommendation | Student displays clear understanding of results. Student displays a clear understanding of the meaning of these results. Interpretation of results is founded in the data, observations and/or other studies. Recommendations are sound and based on the current study and / or other studies. | 4 |
-| Spelling & Grammar  | No spelling errors. No grammar errors. No awkward sentence structures. | 3 |
-| References & in-text citations | APA format used properly and consistently. Minimum of 3 primary source papers used in the report. In-text citations are used when required. Citations and references match up. | 4 |
-| Plagiarism & Quotations | No plagiarism of any kind has been found. No quotations present. Information attained from outside resources are properly cited. | 3 |
-| File Uploads & Format | A total of 4 files have been submitted. Report has been submitted as `pdf` and RMarkdown. Report is no more than 5 pages (excluding references). Data has been submitted in Tidy format as `csv`. Data dictionary has been submitted as `.md`. | 4 |
-| **Total** |  | **50** |
-
 # Assignment: Lab 5 {-}
 
 Please use the following template for this assignment:
@@ -370,5 +351,25 @@ To test this with the template, ensure the template `.Rmd` file is in your `repo
 You should get something that looks like this after `Knitting` the `.Rmd` file
 
 * [20220101_Lab05_125_Assignment_V1.pdf](files/20220101_Lab05_125_Assignment_V1.pdf) (180 KB)
+
+# Rubric: Lab 5 {-}
+
+| Criteria | Description | Pts |
+| :--- | :--- | ---: |
+| Abstract  | Brief, no more than 250 words. Clearly outlines the question / problem. Clearly describes how the question/problem was addressed. Results and recommendations are provided. | 4 |
+| Data Availability | Data availability statement is present. | 1 |
+| Introduction | Relevant background information provided. Clearly articulates how the background information is connected to the current project. Importance of this project has been described. Written well and easy to follow. Flows from more general and broad background information to the focus of the project. Hypothesis and questions posed are outlined at the end of this section. No factual errors are present. | 7 |
+| Methods | No bullet points. All methods and materials are clearly described. Easy to follow. Enough information has been provided for others to be able to reproduce the experiment. Data analysis procedure is also included. | 4 |
+| Experimental Design | Procedure is specific and addresses the question / problem. Data collection is clearly defined. Appropriate control (where applicable) has been used. Independent and dependent variables are identified. Student testing only one variable. | 5 |
+| Results | Includes graphs / figures. No raw data is provided outside of supplemental. Clearly outlines the findings from the study. Flow is sensible with figures present immediately following paragraphs describing the results of figure. | 4 |
+| Figures | Are present. Figure selected is best for this type of data. All axes are labelled with units present where applicable and legends found. All figure present have been discussed in write up. Only averages are being shown. Appropriate statistical measures are present. Figures are clear and easy to interpret. No figures present without being discussed. | 7 |
+| Discussion & Recommendation | Student displays clear understanding of results. Student displays a clear understanding of the meaning of these results. Interpretation of results is founded in the data, observations and/or other studies. Recommendations are sound and based on the current study and / or other studies. | 4 |
+| Spelling & Grammar  | No spelling errors. No grammar errors. No awkward sentence structures. | 3 |
+| References & in-text citations | APA format used properly and consistently. Minimum of 3 primary source papers used in the report. In-text citations are used when required. Citations and references match up. | 4 |
+| Plagiarism & Quotations | No plagiarism of any kind has been found. No quotations present. Information attained from outside resources are properly cited. | 3 |
+| File Uploads & Format | A total of 4 files have been submitted. Report has been submitted as `pdf` and RMarkdown. Report is no more than 5 pages (excluding references). Data has been submitted in Tidy format as `csv`. Data dictionary has been submitted as `.md`. | 4 |
+| **Total** |  | **50** |
+
+
 
 
