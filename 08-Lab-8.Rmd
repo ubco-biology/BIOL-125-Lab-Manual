@@ -1,6 +1,6 @@
 # (PART\*) Lab 8 {-}
 
-# Animal Systems II {-}
+# Animal Systems II: Part One{-}
 
 *Last updated `r Sys.Date()`*
 
@@ -143,7 +143,7 @@ Click [here](files/Lab8_seastar_dissection_guide.pdf) to download a copy of the 
 
 <a href="https://www.pbslearningmedia.org/resource/a7bc4115-1b50-4421-9fef-e02d098d929c/dissection-101-detailed-sea-star-dissection-part-i/">![Seastar Dissection Video: Part 1](images/Lab8_Seastar_Dissection_Video1.png)</a>
 
-<a href="https://www.pbslearningmedia.org/resource/4ab6c77b-4aa4-450f-a25c-4ebae8bc1180/dissection-101-detailed-sea-star-dissection-part-ii/">![Seastar Dissection Video: Part 2](images/Lab8_Seastar_Dissection_Video1.png)</a>
+<a href="https://www.pbslearningmedia.org/resource/4ab6c77b-4aa4-450f-a25c-4ebae8bc1180/dissection-101-detailed-sea-star-dissection-part-ii/">![Seastar Dissection Video: Part 2](images/Lab8_Seastar_Dissection_Video2.png)</a>
 
 **Seastar Quiz**
 
@@ -167,7 +167,7 @@ Click [here](files/Lab8_perch_dissection_guide.pdf) to download a copy of the Pe
 
 <a href="https://www.pbslearningmedia.org/resource/878ff5b4-5f6d-4830-aab2-9f7ab2a01f6b/dissection-101-perch-dissection-video-part-1-of-2/">![Perch Dissection Video: Part 1](images/Lab8_Perch_Dissection_Video1.png)</a>
 
-<a href="https://www.pbslearningmedia.org/resource/3b3a415d-8335-42ac-8341-a28b191f99ee/dissection-101-perch-dissection-video-part-2-of-2/">![Perch Dissection Video: Part 2](images/Lab8_Perch_Dissection_Video1.png)</a>
+<a href="https://www.pbslearningmedia.org/resource/3b3a415d-8335-42ac-8341-a28b191f99ee/dissection-101-perch-dissection-video-part-2-of-2/">![Perch Dissection Video: Part 2](images/Lab8_Perch_Dissection_Video2.png)</a>
 
 **Perch Quiz**
 

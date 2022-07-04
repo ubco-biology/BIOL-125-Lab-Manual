@@ -239,7 +239,7 @@ That\'s it. You should be good to go to open the `.Rmd` template available in th
 
 Please use the following template for this assignment:
 
-[20220101_Lab05_125_Assignment_V1.Rmd](files/report/20220101_Lab05_125_Assignment_V1.Rmd) (3 KB)
+[20220101_Lab05_125_Assignment_V1.Rmd](https://osf.io/download/kcqjs) (3 KB)
 
 <div class = "flag">
 You will need to submit 4 files for this assignment:
