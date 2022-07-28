@@ -33,13 +33,6 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
-\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
-\hypersetup{
-  pdftitle={Biology 125 Lab Manual},
-  hidelinks,
-  pdfcreator={LaTeX via pandoc}}
-\urlstyle{same} % disable monospaced font for URLs
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -72,10 +65,17 @@
 \fi
 \usepackage[]{natbib}
 \bibliographystyle{plainnat}
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Biology 125 Lab Manual},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
 
 \title{Biology 125 Lab Manual}
 \author{}
-\date{\vspace{-2.5em}2022-07-04}
+\date{\vspace{-2.5em}2022-07-28}
 
 \begin{document}
 \maketitle
@@ -184,7 +184,7 @@ Optional material that dives deeper into a presented concept.
 \chapter*{Welcome}\label{welcome-1}}
 \addcontentsline{toc}{chapter}{Welcome}
 
-\emph{Last updated 2022-07-04}
+\emph{Last updated 2022-07-28}
 
 Welcome to your first Biology 125 Lab for Biology for Science Majors II!
 
@@ -472,7 +472,7 @@ Drawing on what you learned in BIOL116 and after reviewing the content for this 
 \chapter*{Open Science}\label{open-science}}
 \addcontentsline{toc}{chapter}{Open Science}
 
-\emph{Last updated 2022-07-04}
+\emph{Last updated 2022-07-28}
 
 This week's lab content is the second half of \href{https://ubco-biology.github.io/OS-Introduction/}{Open Science: An Introduction}.
 
@@ -488,7 +488,7 @@ The accompanying quiz can be found in \href{https://canvas.ubc.ca/courses/90147}
 \chapter*{Research Project: Part 2}\label{research-project-part-2}}
 \addcontentsline{toc}{chapter}{Research Project: Part 2}
 
-\emph{Last updated 2022-07-04}
+\emph{Last updated 2022-07-28}
 
 \hypertarget{data-collection}{%
 \subsection*{Data collection}\label{data-collection}}
@@ -554,17 +554,17 @@ If you decide to work together please be cautious as plagiarism is a serious iss
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
-\toprule
+\toprule()
 \begin{minipage}[b]{\linewidth}\raggedright
 Criteria
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Description
 \end{minipage} \\
-\midrule
+\midrule()
 \endhead
 Results & Includes graphs / figures. No raw data is provided outside of supplemental. Clearly outlines the findings from the study. Flow is sensible with figures present immediately following paragraphs describing the results of figure. \\
 Figures & Are present. Figure selected is best for this type of data. All axes are labelled with units present where applicable and legends found. All figure present have been discussed in write up. Only averages are being shown. Appropriate statistical measures are present. Figures are clear and easy to interpret. No figures present without being discussed. \\
-\bottomrule
+\bottomrule()
 \end{longtable}
 
 \hypertarget{part-lab-4}{%
@@ -575,7 +575,7 @@ Figures & Are present. Figure selected is best for this type of data. All axes a
 \chapter*{Research Project: Part 3}\label{research-project-part-3}}
 \addcontentsline{toc}{chapter}{Research Project: Part 3}
 
-\emph{Last updated 2022-07-04}
+\emph{Last updated 2022-07-28}
 
 \hypertarget{data-analysis}{%
 \subsection*{Data analysis}\label{data-analysis}}
@@ -595,6 +595,38 @@ You may wish to refer back to the section on \href{https://ubco-biology.github.i
 
 Upload your completed assignment to \href{https://canvas.ubc.ca/}{Canvas}
 
+\textbf{OPTIONAL}
+
+If you are feeling ambitious and would like to try making plots, calculating descriptive statistics, and performing analyses using R instead of the RShiny App, here are RMarkdown scripts you can use. These scripts align with the figures, stats, and analyses the RShiny App does but you can edit the code to customize outputs. There is a separate script for each type of variable combinations.
+
+\begin{itemize}
+\tightlist
+\item
+  Both response and explanatory variables are categorical
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{files/BIOL116_Shiny-App-Script_Categorical-Categorical.Rmd}{BIOL116\_Shiny-App-Script\_Categorical-Categorical.Rmd}
+  \end{itemize}
+\item
+  Both response and explanatory variables are quantitative
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{files/BIOL116_Shiny-App-Script_Quantitative-Quantitative.Rmd}{BIOL116\_Shiny-App-Script\_Quantitative-Quantitative.Rmd}
+  \end{itemize}
+\item
+  Categorical explanatory variable and quantitative response variable
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{files/BIOL116_Shiny-App-Script_Quantitative-Categorical.Rmd}{BIOL116\_Shiny-App-Script\_Quantitative-Categorical.Rmd}
+  \end{itemize}
+\end{itemize}
+
 \hypertarget{part-lab-5}{%
 \part*{Lab 5}\label{part-lab-5}}
 \addcontentsline{toc}{part}{Lab 5}
@@ -603,7 +635,7 @@ Upload your completed assignment to \href{https://canvas.ubc.ca/}{Canvas}
 \chapter*{Research Project: Part 4}\label{research-project-part-4}}
 \addcontentsline{toc}{chapter}{Research Project: Part 4}
 
-\emph{Last updated 2022-07-04}
+\emph{Last updated 2022-07-28}
 
 \hypertarget{bringing-things-together}{%
 \subsection*{Bringing things together}\label{bringing-things-together}}
@@ -1028,7 +1060,7 @@ You should get something that looks like this after \texttt{Knitting} the \textt
   >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
   >{\raggedleft\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
-\toprule
+\toprule()
 \begin{minipage}[b]{\linewidth}\raggedright
 Criteria
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
@@ -1036,7 +1068,7 @@ Description
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
 Pts
 \end{minipage} \\
-\midrule
+\midrule()
 \endhead
 Abstract & Brief, no more than 250 words. Clearly outlines the question / problem. Clearly describes how the question/problem was addressed. Results and recommendations are provided. & 4 \\
 Data Availability & Data availability statement is present. & 1 \\
@@ -1051,7 +1083,7 @@ References \& in-text citations & APA format used properly and consistently. Min
 Plagiarism \& Quotations & No plagiarism of any kind has been found. No quotations present. Information attained from outside resources are properly cited. & 3 \\
 File Uploads \& Format & A total of 4 files have been submitted. Report has been submitted as \texttt{pdf} and RMarkdown. Report is no more than 5 pages (excluding references). Data has been submitted in Tidy format as \texttt{csv}. Data dictionary has been submitted as \texttt{.md}. & 4 \\
 \textbf{Total} & & \textbf{50} \\
-\bottomrule
+\bottomrule()
 \end{longtable}
 
 \hypertarget{part-lab-6}{%
@@ -1062,7 +1094,7 @@ File Uploads \& Format & A total of 4 files have been submitted. Report has been
 \chapter*{Animal Systems I: Part One}\label{animal-systems-i-part-one}}
 \addcontentsline{toc}{chapter}{Animal Systems I: Part One}
 
-\emph{Last updated 2022-07-04}
+\emph{Last updated 2022-07-28}
 
 \hypertarget{overview-of-the-week}{%
 \subsection*{Overview of the Week}\label{overview-of-the-week}}
@@ -1292,7 +1324,7 @@ Complete the Grasshopper Quiz on \href{https://canvas.ubc.ca/}{Canvas}.
 \chapter*{Animal Systems I: Part Two}\label{animal-systems-i-part-two}}
 \addcontentsline{toc}{chapter}{Animal Systems I: Part Two}
 
-\emph{Last updated 2022-07-04}
+\emph{Last updated 2022-07-28}
 
 \hypertarget{overview-of-the-week-1}{%
 \subsection*{Overview of the Week}\label{overview-of-the-week-1}}
@@ -1335,7 +1367,7 @@ Click \href{files/Lab7_Assignment.pdf}{here} to download a copy of the Assignmen
 \chapter*{Animal Systems II: Part One}\label{animal-systems-ii-part-one}}
 \addcontentsline{toc}{chapter}{Animal Systems II: Part One}
 
-\emph{Last updated 2022-07-04}
+\emph{Last updated 2022-07-28}
 
 \hypertarget{overview-of-the-week-2}{%
 \subsection*{Overview of the Week}\label{overview-of-the-week-2}}
@@ -1582,7 +1614,7 @@ Complete the Rat Quiz on \href{https://canvas.ubc.ca/}{Canvas}.
 \chapter*{Animal Systems II: Part Two}\label{animal-systems-ii-part-two}}
 \addcontentsline{toc}{chapter}{Animal Systems II: Part Two}
 
-\emph{Last updated 2022-07-04}
+\emph{Last updated 2022-07-28}
 
 \hypertarget{overview-of-the-week-3}{%
 \subsection*{Overview of the Week}\label{overview-of-the-week-3}}
@@ -1622,7 +1654,7 @@ Click \href{files/Lab9_Assignment.pdf}{here} to download a copy of the Assignmen
 \chapter*{Fictional Animal Systems Project}\label{fictional-animal-systems-project}}
 \addcontentsline{toc}{chapter}{Fictional Animal Systems Project}
 
-\emph{Last updated 2022-07-04}
+\emph{Last updated 2022-07-28}
 
 \emph{This assignment was developed from the article "The Fictional Animal Project: a Tool for Helping Students Integrate Body Systems". Adv. Physiol. Educ 41: 239-243 Blatch et al.~2017}
 
@@ -1775,7 +1807,7 @@ Presentation pointers for you:
 \chapter*{Fictional Animal Systems Presentation}\label{fictional-animal-systems-presentation}}
 \addcontentsline{toc}{chapter}{Fictional Animal Systems Presentation}
 
-\emph{Last updated 2022-07-04}
+\emph{Last updated 2022-07-28}
 
 \hypertarget{overview-of-the-week-4}{%
 \subsection*{Overview of the Week}\label{overview-of-the-week-4}}
@@ -1816,9 +1848,9 @@ Your TA will pre-determine the order of your presentations and will let you know
 \end{itemize}
 
 \begin{longtable}[]{@{}ll@{}}
-\toprule
+\toprule()
 Points & Criteria \\
-\midrule
+\midrule()
 \endhead
 Exceeds Expectations 7 pts & All 7 criteria were met \\
 Excellent 6 pts & 6 of the 7 criteria were met \\
@@ -1828,7 +1860,7 @@ Unsatisfactory 3 pts & 3 of the 7 criteria were met \\
 Poor 2 pts & 2 of the 7 criteria were met \\
 Unacceptable 1 pt & Only 1 of the 7 criteria were met \\
 Absent 0 pts & No criteria were met \\
-\bottomrule
+\bottomrule()
 \end{longtable}
 
 \hypertarget{system-integration}{%
@@ -1854,9 +1886,9 @@ Absent 0 pts & No criteria were met \\
 \end{itemize}
 
 \begin{longtable}[]{@{}ll@{}}
-\toprule
+\toprule()
 Points & Criteria \\
-\midrule
+\midrule()
 \endhead
 Excellent 5 pts & All 5 criteria were met \\
 Proficient 4 pts & 4 of the 5 criteria were met \\
@@ -1864,7 +1896,7 @@ Satisfactory 3 pts & 3 of the 5 criteria were met \\
 Poor 2 pts & 2 of the 5 criteria were met \\
 Unacceptable 1 pt & Only 1 of the 5 criteria were met \\
 Absent 0 pts & No criteria were met \\
-\bottomrule
+\bottomrule()
 \end{longtable}
 
 \hypertarget{life-cycle}{%
@@ -1892,9 +1924,9 @@ Absent 0 pts & No criteria were met \\
 \end{itemize}
 
 \begin{longtable}[]{@{}ll@{}}
-\toprule
+\toprule()
 Points & Criteria \\
-\midrule
+\midrule()
 \endhead
 Excellent 6 pts & All criteria were met \\
 Proficient 5 pts & 5 of the 6 criteria were met \\
@@ -1903,7 +1935,7 @@ Satisfactory 3 pts & 3 of the 6 criteria were met \\
 Poor 2 pts & 2 of the 6 criteria were met \\
 Unacceptable 1 pt & Only 1 of the 6 criteria were met \\
 Absent 0 pts & No criteria were met \\
-\bottomrule
+\bottomrule()
 \end{longtable}
 
 \hypertarget{environment-and-system-compatability}{%
@@ -1927,16 +1959,16 @@ Absent 0 pts & No criteria were met \\
 \end{itemize}
 
 \begin{longtable}[]{@{}ll@{}}
-\toprule
+\toprule()
 Points & Criteria \\
-\midrule
+\midrule()
 \endhead
 Excellent 4 pts & All criteria were met \\
 Proficient 3 pts & 3 of the 4 criteria were met \\
 Satisfactory 2 pts & 2 of the 4 criteria were met \\
 Unacceptable 1 pt & Only 1 of the 4 criteria were met \\
 Absent 0 pts & No criteria were met \\
-\bottomrule
+\bottomrule()
 \end{longtable}
 
 \hypertarget{environment---morphological-and-behavioural-adaptations}{%
@@ -1958,15 +1990,15 @@ Absent 0 pts & No criteria were met \\
 \end{itemize}
 
 \begin{longtable}[]{@{}ll@{}}
-\toprule
+\toprule()
 Points & Criteria \\
-\midrule
+\midrule()
 \endhead
 Excellent 3 pts & All criteria were met \\
 Satisfactory 2 pts & 2 of the 3 criteria were met \\
 Unacceptable 1 pt & Only 1 of the 3 criteria were met \\
 Absent 0 pts & No criteria were met \\
-\bottomrule
+\bottomrule()
 \end{longtable}
 
 \hypertarget{presentation}{%
@@ -1992,9 +2024,9 @@ Absent 0 pts & No criteria were met \\
 \end{itemize}
 
 \begin{longtable}[]{@{}ll@{}}
-\toprule
+\toprule()
 Points & Criteria \\
-\midrule
+\midrule()
 \endhead
 Excellent 5 pts & All 5 criteria were met \\
 Proficient 4 pts & 4 of the 5 criteria were met \\
@@ -2002,7 +2034,7 @@ Fair 3 pts & 3 of the 5 criteria were met \\
 Unsatisfactory 2 pts & 2 of the 5 criteria were met \\
 Unacceptable 1 pt & Only 1 of the 5 criteria were met \\
 Absent 0 pts & No criteria were met \\
-\bottomrule
+\bottomrule()
 \end{longtable}
 
 \hypertarget{plagiarism-and-in-text-citations}{%
@@ -2024,15 +2056,15 @@ Absent 0 pts & No criteria were met \\
 \end{itemize}
 
 \begin{longtable}[]{@{}ll@{}}
-\toprule
+\toprule()
 Points & Criteria \\
-\midrule
+\midrule()
 \endhead
 Excellent 3 pts & All criteria were met \\
 Satisfactory 2 pts & 2 of the 3 criteria were met \\
 Unacceptable 1 pt & Only 1 of the 3 criteria were met \\
 Absent 0 pts & No criteria were met \\
-\bottomrule
+\bottomrule()
 \end{longtable}
 
 \end{document}
