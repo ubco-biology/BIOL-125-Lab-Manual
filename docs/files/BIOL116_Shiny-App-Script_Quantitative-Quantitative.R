@@ -1,0 +1,109 @@
+# Introduction & Instructions
+
+# This script is intended as an alternative to using the BIOL 116 Shiny App. 
+# As such, you can use it to produce figures, calculate descriptive statistics, and perform statistical analyses on your data. 
+# This specific script is intended to be used if your response (dependent) and explanatory (independent) variables are **both quantitative.** 
+# Alongside each line of code are comments describing what to do or what the code is doing. 
+# **Things you are required to do are indicated with asterisks (*).**
+# Be sure to consult the rubric to ensure you have done everything that was asked for your assignment!
+                                                                                             
+# Step 1: Set Your Working Directory
+                                                                                             
+# * Follow the instructions [here](https://ubco-biology.github.io/Procedures-and-Guidelines/set-a-working-directory-in-rstudio.html) in the Procedures and Guidelines Document to set your working directory. 
+                                                                                             
+# Step 2: Installing & Loading Required Packages
+                                                                                             
+    # * Remove the # from the following lines of code, and copy the code into the RStudio Console (lower left pane of RStudio) to install the necessary packages:
+                                                                                               
+        # install.packages("ggplot2")
+        # install.packages("dplyr")
+        # install.packages("broom")
+                                                                                             
+    # Once the required packages are installed, you need to load these packages within your R Markdown document. To load the packages, run the `R` chunk below.  
+                                                                                             
+        library("ggplot2")  
+        library("dplyr")  
+        library("broom")
+                                                                                             
+# Step 3: Uploading Your Data
+                                                                                             
+    # Make sure your data is saved as a UTF-8 CSV file and is located within your working directory. In other words, your data should be saved in the same folder as the R Project you created in Step 1. 
+                                                                                             
+    # * Replace `insert-data-file-name-here.csv` with the file name that your data is saved as to your computer
+
+    my_data <- read.csv(file = "insert-data-file-name-here.csv", header = TRUE) 
+                                                                                             
+    # This code reads your CSV file into R
+    # header = TRUE if the first row of values in your data has header information (aka column names)
+    # header = FALSE if there is no header information
+                                                                                             
+# Step 4: Producing Figures
+                                                                                             
+    # The script below will create a scatterplot of your quantitative variables with a line of best fit. The grey region surrounding the line of best fit is the 95% confidence interval. 
+                                                                                             
+    # * Replace **TWO** `insert-x-variable-name-here` with your explanatory (independent) variable's name
+    # * Replace **TWO** `insert-y-variable-name-here` with your response (dependent) variable's name
+                                                                                            
+    ggplot(my_data, 
+        aes(x = insert-x-variable-name-here, y = insert-y-variable-name-here)) + # the variables to plot
+    geom_point(color = 'black', alpha = 0.5, position = 'jitter') + # creates the points, adjusts their transparency, and slightly moves each point so there is less overlap
+    geom_smooth(method='lm') + # adds the line of best fit
+    labs(x = "insert-x-variable-name-here", y = "insert-y-variable-name-here") + # axes labels
+    theme(
+        axis.line = element_line(colour = 'gray', size = .75), # colour and size of axes
+        panel.background = element_blank(), # no colour for plot area
+        plot.background = element_blank()) # no colour for whole chart incl. behind axes
+    
+    # Your plot will be located in the lower right pane of RStudio. To save your plot, click the 'Export' button.
+    # If you are feeling ambitious, you are welcome to utilize [this resource](https://ademos.people.uic.edu/Chapter10.html#14_customizing_a_scatterplot) to alter the script to further customize your figures. 
+                                                                                             
+# Step 5: Calculating Descriptive Statistics
+                                                                                             
+    # * Replace **FOUR** `insert-x-variable-name-here` with your explanatory (independent) variable's name
+    # * Replace **FOUR** `insert-y-variable-name-here` with your response (dependent) variable's name
+                                                                                             
+    var1 <- my_data %>%
+      summarise(n = n(), # calculated sample size
+        Mean = round(mean(insert-x-variable-name-here, na.rm = T), 1), # calculates mean
+        SD = round(sd(insert-x-variable-name-here, na.rm = T), 2), # calculates standard deviation
+        Median = round(median(insert-x-variable-name-here, na.rm = T), 1), # calculates median
+        iqr = round(IQR(insert-x-variable-name-here, na.rm = T), 2)) %>% # calculates interquartile range
+    as.data.frame() # puts stats into a data frame
+                                                                                                 
+    var2 <- my_data %>%
+      summarise(n = n(),
+        Mean = round(mean(insert-y-variable-name-here, na.rm = T), 1),
+        SD = round(sd(insert-y-variable-name-here, na.rm = T), 2), 
+        Median = round(median(insert-y-variable-name-here, na.rm = T), 1),
+        iqr = round(IQR(insert-y-variable-name-here, na.rm = T), 2)) %>%
+      as.data.frame() 
+                                                                                             
+      stats <- full_join(var1, var2) #joins the two data frames
+      stats # displays the data frame
+                                                                                         
+# Step 6: Performing Statistical Analyses
+                                                                               
+    # The appropriate statistical test to assess for a relationship between two quantitative variables is correlation analysis. 
+    # Correlation analysis has **not** been covered in BIOL 116 or 125 and correlation analysis is **not** currently available in the Shiny App. 
+    # The script below will perform a Pearson Correlation on your quantitative variables.
+                                                                                             
+    # * Replace **ONE** `insert-x-variable-name-here` with your explanatory (independent) variable's name
+    # * Replace **ONE** `insert-y-variable-name-here` with your response (dependent) variable's name
+                                                                                             
+    cor <- cor.test(x = my_data$insert-x-variable-name-here, y = my_data$insert-y-variable-name-here, # chooses the variables
+            method = "pearson", # chooses correlation method
+            conf.level = 0.95, # chooses confidence interval
+            alternative = "two.sided") # chooses type of alternative hypothesis
+                                                                                             
+    cor.tidy <- tidy(cor) # makes the output easier to read
+    cor.tidy # displays the output
+                                                                                     
+    # Here are instructions for interpreting the output from your correlation analysis:
+                                                                                               
+        # The “estimate” value represents the value of Pearson’s correlation coefficient *r*
+        # The “statistic” value is actually the value for *t*, which is used to test the significance of *r*
+        # The “p.value” associated with the observed value of *t*
+        # The “parameter” value is referring to the degrees of freedom for the test (don't worry about this for now)
+        # The output also includes the confidence interval for *r* (“conf.low” and “conf.high”)
+        # The “method” refers to the type of test conducted
+        # The “alternative” indicates whether the alternative hypothesis was one- or two-sided (the latter is the default)

@@ -18,13 +18,16 @@ You may wish to refer back to the section on [Preparing your data](https://ubco-
 
 Upload your completed assignment to [Canvas](https://canvas.ubc.ca/)
 
-**OPTIONAL**
+<div class="advanced">
 
-If you are feeling ambitious and would like to try making plots, calculating descriptive statistics, and performing analyses using R instead of the RShiny App, here are RMarkdown scripts you can use. These scripts align with the figures, stats, and analyses the RShiny App does but you can edit the code to customize outputs. There is a separate script for each type of variable combinations.
+If you are feeling ambitious and would like to try making plots, calculating descriptive statistics, and performing analyses using R instead of the RShiny App, here are RMarkdown scripts you can use. These scripts align with the figures, stats, and analyses the RShiny App does but you can edit the code to customize outputs. There is a separate script for each type of variable combinations. Keep in mind that there will be no additional support through TA's or instructors should you choose to use these scripts. 
+
+Before using these scripts, you'll need to have both R and RStudio installed on your computer. See [here](https://ubco-biology.github.io/BIOL-125-Lab-Manual/rmarkdown-and-rstudio.html) in the BIOL 125 Lab Manual for instructions on how to install both of these programs. 
 
 * Both response and explanatory variables are categorical 
-    * [BIOL116_Shiny-App-Script_Categorical-Categorical.Rmd](files/BIOL116_Shiny-App-Script_Categorical-Categorical.Rmd)
+    * [BIOL116_Shiny-App-Script_Categorical-Categorical.R](files/BIOL116_Shiny-App-Script_Categorical-Categorical.R)
 * Both response and explanatory variables are quantitative 
-    * [BIOL116_Shiny-App-Script_Quantitative-Quantitative.Rmd](files/BIOL116_Shiny-App-Script_Quantitative-Quantitative.Rmd)
+    * [BIOL116_Shiny-App-Script_Quantitative-Quantitative.R](files/BIOL116_Shiny-App-Script_Quantitative-Quantitative.R)
 * Categorical explanatory variable and quantitative response variable 
-    * [BIOL116_Shiny-App-Script_Quantitative-Categorical.Rmd](files/BIOL116_Shiny-App-Script_Quantitative-Categorical.Rmd)
+    * [BIOL116_Shiny-App-Script_Quantitative-Categorical.R](files/BIOL116_Shiny-App-Script_Quantitative-Categorical.R)
+</div>
