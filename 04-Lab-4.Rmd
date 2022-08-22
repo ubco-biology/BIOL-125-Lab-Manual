@@ -10,7 +10,7 @@ In Lab 3 we started collecting data according what we had mapped out in our prot
 
 # Assignment: Lab 4 {-}
 
-Download a copy of the assignment [Lab_4_RShiny_Assignment](files/Lab_4_RShiny_Assignment.pdf). 
+Download a copy of the assignment [Lab_4_RShiny_Assignment](https://osf.io/download/j72q9). 
 
 Use the [RShiny App](https://openscience.ok.ubc.ca/shiny/BIOL-116/) to complete your assignment.
 

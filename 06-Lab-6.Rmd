@@ -16,7 +16,7 @@ The breakdown for this week\'s lab;
 
 **Before lab** you will need to read through the information outlined below in Animal Systems Information for three phyla: Annelida, Mollusca and Arthropoda.
 
-In this lab, you will be working your way through the material posted on Canvas online but during your scheduled lab time. Your TA will spend time going over a quick [PowerPoint presentation](files/Animal_Systems_I_Presentation.pptx) regarding these animals. You will then need to spend a fair bit of time going through the different videos, images, and written material provided to ensure you have a solid grasp of these animals before coming to campus next week for your synchronous week. You must complete all quizzes associated with the animals found in animal systems I before **11:59 pm on July 20th**. Even though you will be getting together this week there is no reason you can't start reviewing all this information ahead of time so that you are better prepared to get through the material during your lab section. 
+In this lab, you will be working your way through the material posted on Canvas online but during your scheduled lab time. Your TA will spend time going over a quick [PowerPoint presentation](https://osf.io/download/sbqe7) regarding these animals. You will then need to spend a fair bit of time going through the different videos, images, and written material provided to ensure you have a solid grasp of these animals before coming to campus next week for your synchronous week. You must complete all quizzes associated with the animals found in animal systems I before **11:59 pm on July 20th**. Even though you will be getting together this week there is no reason you can't start reviewing all this information ahead of time so that you are better prepared to get through the material during your lab section. 
 
 # Animal Systems Information {-}
 
@@ -128,7 +128,7 @@ Did you know that an earthworm can range in size from 1 inch to 10 feet!!!
 
 **Earthworm Dissection Guide & Video**
 
-Click [here](files/Lab6_earthworm_dissection_guide.pdf) to download a copy of the Earthworm Dissection Guide.
+Click [here](https://osf.io/download/vzu5f) to download a copy of the Earthworm Dissection Guide.
 
 <a href="https://www.pbslearningmedia.org/resource/41b655c3-2791-4b66-89df-04fa972f0563/detailed-earthworm-dissection-video/" target="_blank">![Earthworm Dissection Video](images/Lab6_Earthworm_Dissection_Video.png)</a>
 
@@ -147,7 +147,7 @@ Interesting fact: The giant clam has a lifespan well over that of a human!
 ![Clam Life Cycle](images/Lab6_clam_life_cycle.png)
 **Clam Dissection Guide & Video**
 
-Click [here](files/Lab6_clam_dissection_guide.pdf) to download a copy of the Clam Dissection Guide.
+Click [here](https://osf.io/download/hy37u) to download a copy of the Clam Dissection Guide.
 
 <a href="https://www.pbslearningmedia.org/resource/1984d193-2712-4762-b9ec-8d37f32fdd9a/detailed-clam-dissection-video/" target="_blank">![Clam Dissection Video](images/Lab6_Clam_Dissection_Video.png)</a>
 
@@ -165,7 +165,7 @@ Grasshoppers can make music without any instruments. Click [here](https://www.yo
 
 **Grasshopper Dissection Guide & Videos**
 
-Click [here](files/Lab6_grasshopper_dissection_guide.pdf) to download a copy of the Grasshopper Dissection Guide.
+Click [here](https://osf.io/download/9uvxh) to download a copy of the Grasshopper Dissection Guide.
 
 <a href="https://www.youtube.com/watch?v=wfQqk03joS4" target="_blank">![Grasshopper Dissection Video: Part 1](images/Lab6_Grasshopper_Dissection_Video1.png)</a>
 

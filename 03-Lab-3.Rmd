@@ -35,7 +35,7 @@ Writing a report can be extremely daunting and confusing especially if you have 
 
 In order to help you better understand how to write a results section you are asked to edit the results section of the following document:
 
-* [Lab-03_Results_Assignment.pdf](files/lab-3_report/Lab-03_Results_Assignment.pdf) (306 KB)
+* [Lab-03_Results_Assignment.pdf](https://osf.io/download/nk5du) (306 KB)
 
 This results example section contains at least 10 errors. Using the rubric for writing a good results section - found on [Canvas](https://canvas.ubc.ca), in [Lab 5](05-Lab-5#rubric.html), and pasted below - and the information provided, you must edit this results section by clearly identifying and explaining each error. Take your time as some of them may not jump out at you immediately.
 

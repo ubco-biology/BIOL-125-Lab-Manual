@@ -197,7 +197,7 @@ So, please review the content on [directory structure management](https://ubco-b
 
 Please use the following template for this assignment:
 
-[20220101_Lab01_125_Protocol-Assignment_V2.docx](files/20220101_Lab01_125_Protocol-Assignment_V2.docx) (17 KB)
+[20220101_Lab01_125_Protocol-Assignment_V2.docx](https://osf.io/download/cnwkj) (17 KB)
 
 ### Putting it into practice {-}
 

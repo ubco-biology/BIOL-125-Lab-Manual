@@ -12,7 +12,7 @@
 4. You must complete all quizzes for this week's lab provided on Canvas due **before 11:59 pm on July 25th**
 5. Submit your final recommendation report Assignment #5 **before 11:59pm on July 28th** 
 
-This week you will be working your way through the material posted on Canvas online but during your scheduled lab time. Your TA will spend time going over a quick [PowerPoint presentation](files/Animal_Systems_Presentation_II.pptx) regarding these animals.  You will then need to spend a fair bit of time going through the different videos, images, and written material provided to ensure you have a solid grasp of these animals before coming to campus next week for your synchronous week. You must complete all quizzes associated with the animals found in animal systems II **before 11:59 pm on July 27th**.  Even though you will be getting together this week there is no reason you can't start reviewing all this information ahead of time so that you are better prepared to get through the material during your lab section. 
+This week you will be working your way through the material posted on Canvas online but during your scheduled lab time. Your TA will spend time going over a quick [PowerPoint presentation](https://osf.io/download/6wupk) regarding these animals.  You will then need to spend a fair bit of time going through the different videos, images, and written material provided to ensure you have a solid grasp of these animals before coming to campus next week for your synchronous week. You must complete all quizzes associated with the animals found in animal systems II **before 11:59 pm on July 27th**.  Even though you will be getting together this week there is no reason you can't start reviewing all this information ahead of time so that you are better prepared to get through the material during your lab section. 
 
 # Animal Systems Information II {-}
 
@@ -139,7 +139,7 @@ Did you know that a seastar eats with its stomach outside itself? Click the vide
 
 **Seastar Dissection Guide & Video**
 
-Click [here](files/Lab8_seastar_dissection_guide.pdf) to download a copy of the Seastar Dissection Guide.
+Click [here](https://osf.io/download/z6v7w) to download a copy of the Seastar Dissection Guide.
 
 <a href="https://www.pbslearningmedia.org/resource/a7bc4115-1b50-4421-9fef-e02d098d929c/dissection-101-detailed-sea-star-dissection-part-i/">![Seastar Dissection Video: Part 1](images/Lab8_Seastar_Dissection_Video1.png)</a>
 
@@ -163,7 +163,7 @@ Click [here](https://www.youtube.com/watch?v=T7xXfhOjtsU) to see more!
 
 **Perch Dissection Guide & Video**
 
-Click [here](files/Lab8_perch_dissection_guide.pdf) to download a copy of the Perch Dissection Guide.
+Click [here](https://osf.io/download/6qspd) to download a copy of the Perch Dissection Guide.
 
 <a href="https://www.pbslearningmedia.org/resource/878ff5b4-5f6d-4830-aab2-9f7ab2a01f6b/dissection-101-perch-dissection-video-part-1-of-2/">![Perch Dissection Video: Part 1](images/Lab8_Perch_Dissection_Video1.png)</a>
 
@@ -183,7 +183,7 @@ Rats can swim! And apparently climb up your toilet. Click [here](https://www.nat
 
 **Rat Dissection Guide & Video**
 
-Click [here](files/Lab8_rat_dissection_guide.pdf) to download a copy of the Rat Dissection Guide.
+Click [here](https://osf.io/download/d4kgz) to download a copy of the Rat Dissection Guide.
 
 <a href="https://www.youtube.com/watch?v=Azdrf02jhqM">![Rat Dissection Video](images/Lab8_Rat_Dissection_Video.png)</a>
 

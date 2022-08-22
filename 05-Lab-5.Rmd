@@ -239,7 +239,7 @@ That\'s it. You should be good to go to open the `.Rmd` template available in th
 
 Please use the following template for this assignment:
 
-[20220101_Lab05_125_Assignment_V1.Rmd](https://osf.io/download/kcqjs) (3 KB)
+[20220704_Lab05_125_Assignment_V2.Rmd](https://osf.io/download/76ma4) (3 KB)
 
 <div class = "flag">
 You will need to submit 4 files for this assignment:
@@ -346,11 +346,11 @@ Click this button or select the drop down arrow and select `Knit to pdf`. This w
 
 To test this with the template, ensure the template `.Rmd` file is in your `report/` directory and download the following image into your `figures/` directory
 
-* [MVD_BIOL125-Lab5_Fig-1-Boxplot_V1.png](files/figures/MVD_BIOL125-Lab5_Fig-1-Boxplot_V1.png) (4 KB)
+* [MVD_BIOL125-Lab5_Fig-1-Boxplot_V1.png](https://osf.io/download/zuehg) (4 KB)
 
 You should get something that looks like this after `Knitting` the `.Rmd` file
 
-* [20220101_Lab05_125_Assignment_V1.pdf](files/20220101_Lab05_125_Assignment_V1.pdf) (180 KB)
+* [20220101_Lab05_125_Assignment_V1.pdf](https://osf.io/download/3k8ve) (180 KB)
 
 # Rubric: Lab 5 {-}
 

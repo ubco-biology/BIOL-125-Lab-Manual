@@ -22,5 +22,5 @@ Make notes and work together as a team to learn, not only about the animal you w
 
 # Assignment: Lab 7 {-}
 
-Click [here](files/Lab7_Assignment.pdf) to download a copy of the Assignment.
+Click [here](https://osf.io/download/qzndp) to download a copy of the Assignment.
 

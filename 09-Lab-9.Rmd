@@ -20,4 +20,4 @@ Make notes and work together as a team to learn about these groups.  You and you
 
 # Assignment: Lab 9 {-}
 
-Click [here](files/Lab9_Assignment.pdf) to download a copy of the Assignment.
+Click [here](https://osf.io/download/rkjd9) to download a copy of the Assignment.
