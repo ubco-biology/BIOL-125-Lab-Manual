@@ -20,14 +20,9 @@ Upload your completed assignment to [Canvas](https://canvas.ubc.ca/)
 
 <div class="advanced">
 
-If you are feeling ambitious and would like to try making plots, calculating descriptive statistics, and performing analyses using R instead of the RShiny App, here are RMarkdown scripts you can use. These scripts align with the figures, stats, and analyses the RShiny App does but you can edit the code to customize outputs. There is a separate script for each type of variable combinations. Keep in mind that there will be no additional support through TA's or instructors should you choose to use these scripts. 
+**Using R Scripts as an Alternative to RShiny**
 
-Before using these scripts, you'll need to have both R and RStudio installed on your computer. See [here](https://ubco-biology.github.io/BIOL-125-Lab-Manual/rmarkdown-and-rstudio.html) in the BIOL 125 Lab Manual for instructions on how to install both of these programs. 
+If you are feeling ambitious and would like to try making plots, calculating descriptive statistics, and performing analyses using R instead of the RShiny App, some R scripts are provided in the [Optional Deeper Dive here](https://ubco-biology.github.io/BIOL-116-Lab-Manual/lab-7-activity.html) in the BIOL 116 Lab manual for your use. These scripts align with the code used to produce figures, stats, and analyses in the RShiny App. However, by using these R Scripts you can edit code to customize the outputs (ie. change the fill colour on your figure etc.). 
 
-* Both response and explanatory variables are categorical 
-    * [BIOL116_Shiny-App-Script_Categorical-Categorical.R](files/BIOL116_Shiny-App-Script_Categorical-Categorical.R)
-* Both response and explanatory variables are quantitative 
-    * [BIOL116_Shiny-App-Script_Quantitative-Quantitative.R](files/BIOL116_Shiny-App-Script_Quantitative-Quantitative.R)
-* Categorical explanatory variable and quantitative response variable 
-    * [BIOL116_Shiny-App-Script_Quantitative-Categorical.R](files/BIOL116_Shiny-App-Script_Quantitative-Categorical.R)
+*Keep in mind that there will be no additional support through TA's or instructors should you choose to use these scripts.* 
 </div>

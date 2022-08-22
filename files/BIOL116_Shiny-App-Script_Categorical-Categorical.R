@@ -1,105 +1,126 @@
 # Introduction & Instructions
 
-# This script is intended as an alternative to using the BIOL 116 Shiny App. 
-# As such, you can use it to produce figures, calculate descriptive statistics, and perform statistical analyses on your data. 
-# This specific script is intended to be used if both your response (dependent) and explanatory (independent) variables are **categorical** 
-# Alongside each line of code are comments describing what to do or what the code is doing. 
-# **Things you are required to do are indicated with asterisks (*).**
-# Use the 'Run' button located on the top right of this panel in RStudio to run each line of code
-# Be sure to consult the rubric to ensure you have done everything that was asked for your assignment!
+  # This script is intended as an alternative to using the BIOL 116 Shiny App. 
+  # You can use it to produce figures, calculate descriptive statistics, and 
+  # perform statistical analyses on your data. 
+  
+  # This specific script is intended to be used if both your response (dependent) 
+  # and explanatory (independent) variables are **categorical** 
+  
+  # Alongside each line of code are comments describing what to do or what the 
+  # code is doing. 
+  # Be sure to consult the rubric to ensure you have done everything that was 
+  # asked for your assignment!
       
 # Step 1: Set Your Working Directory
       
-    # Follow the instructions [here](https://ubco-biology.github.io/Procedures-and-Guidelines/set-a-working-directory-in-rstudio.html) in the Procedures and Guidelines Document to set your working directory. 
+  # Follow the instructions at 
+  # https://ubco-biology.github.io/Procedures-and-Guidelines/set-a-working-directory-in-rstudio.html 
+  # in the Procedures and Guidelines Document to set your working directory. 
     
-# Step 1: Installing & Loading Required Packages
+# Step 2: Installing & Loading Required Packages
     
-    # * Remove the # from the following lines of code, and copy the code into the RStudio Console (lower left pane of RStudio) to install the necessary packages:
+  # Remove the # from the following lines of code, 
+  # and copy the code into the RStudio Console (lower left pane of RStudio) 
+  # to install the necessary packages. If you're on a lab computer, you may need
+  # need to do this at each log in.
       
-        # install.packages("ggplot2")
-        # install.packages("ggmosaic")
-        # install.packages("dplyr")
-        # install.packages("stats")
-    
-    # Once the required packages are installed, you need to load these packages within your R script. The code below will load these packages
-  
-        library("ggplot2")  
-        library("ggmosaic")
-        library("dplyr") 
-        library("stats")
+  # install.packages("ggplot2")
+  # install.packages("ggmosaic")
+  # install.packages("dplyr")
+  # install.packages("stats")
+
+  # Load required packages
+
+  library("ggplot2")  
+  library("ggmosaic")
+  library("dplyr") 
+  library("stats")
     
 # Step 3: Uploading Your Data
     
-    # Make sure your data is saved as a UTF-8 CSV file and is located within your working directory. In other words, your data should be saved in the same folder as the R Project you created in Step 1. 
+    # Make sure your data is saved as a UTF-8 CSV file and 
+    # is located within your working directory. 
     
-    # * Replace `insert-data-file-name-here.csv` with the file name that your data is saved as to your computer
+    # Replace `insert-data-file-name-here.csv` with the file name that your data 
+    # is saved as to your computer
     
-    my_data <- read.csv(file = "data.csv", header = TRUE) 
+    my_file <- "insert-data-file-name-here.csv" # assign file name to a variable
+    my_data <- read.csv(file = my_file, header = TRUE) 
+    # load csv into R as a dataframe assuming there's a header
     
-    # This code reads your CSV file into R
-    # header = TRUE if the first row of values in your data has header information (aka column names)
-    # header = FALSE if there is no header information
+# Step 4: Visualizing Your Data
     
-# Step 4: Producing Figures
+    x_var <- "X variable name" # Replace with the name of your x variable
+    x_label <- "X label name" # Replace with your desired x axis label
+    y_var <- "Y variable name" # Replace with the name of your x variable
+    y_label <- "Y label name" # Replace with your desired y axis label
+    caption <- "My Caption" # Replace with your desired caption
     
-    # * Replace **TWO** `insert-x-variable-name-here` with your explanatory (independent) variable's name
-    # * Replace **TWO** `insert-y-variable-name-here` with your response (dependent) variable's name
+    # Factoring the Categorical Variables
+ 
+    my_data$x_var <- factor(my_data[,colnames(my_data) == x_var])
+    my_data$y_var <- factor(my_data[,colnames(my_data) == y_var])
     
-    my_data$insert-x-variable-name-here <- as.factor(my_data$insert-x-variable-name-here) # factoring the explanatory variable
-    my_data$insert-y-variable-name-here <- as.factor(my_data$insert-y-variable-name-here) # factoring the response variable
+    #Removing Original Unfactored Variable to Avoid Duplicates
     
-    # **Code for Creating a Mosaic Plot**
-      
-        # * Replace **TWO** `insert-x-variable-name-here` with your explanatory (independent) variable's name
-        # * Replace **TWO** `insert-y-variable-name-here` with your response (dependent) variable's name
+    drop <- c(x_var, y_var)
+    my_data = my_data[,!(names(my_data) %in% drop)]
+    
+    # Mosaic Plot
           
-            my_data %>%
-              ggplot() +
-              geom_mosaic(aes(x = product(insert-x-variable-name-here), fill = insert-y-variable-name-here)) + # defines the variables 
-              scale_y_continuous(breaks = seq(0, 1, by = 0.2)) + # makes adjustments to the y axis 
-              labs(x = "insert-x-variable-name-here", y = 'Relative frequency', fill = "insert-y-variable-name-here") + # axes labels
-              theme(
-                panel.background = element_blank(), # no colour for plot area
-                plot.background = element_blank()) # no colour for whole chart incl. behind axes
-    
-        # Your plot will be located in the lower right pane of RStudio. To save your plot, click the 'Export' button.
-        # If you are feeling ambitious, you are welcome to utilize [this resource](https://haleyjeppson.github.io/ggmosaic/) to alter the script to further customize your figures. 
+    my_data %>%
+      ggplot() +
+      geom_mosaic(aes(x = product(x_var), fill = y_var)) + # defines the variables 
+      scale_y_continuous(breaks = seq(0, 1, by = 0.2)) + # makes adjustments to the y axis 
+      labs(x = x_label, 
+           y = 'Relative frequency', 
+           fill = y_label,
+           caption = caption) + # defines axes labels and figure caption
+      theme(
+        panel.background = element_blank(), # no colour for plot area
+        plot.background = element_blank()) # no colour for whole chart incl. behind axes
     
 # Step 5: Calculating Descriptive Statistics
     
-    # * Replace **ONE** `insert-x-variable-name-here` with your explanatory (independent) variable's name
-    # * Replace **ONE** `insert-y-variable-name-here` with your response (dependent) variable's name
+    # Creating a Frequency Table for Specified Variables 
     
-    stats <- my_data %>%
-      select(insert-x-variable-name-here, insert-y-variable-name-here) # defines which variables to display
+    stats <- my_data %>% 
+      select(x_var, y_var) 
     
-    table(stats) # displays the descriptive statistics in a table in the lower left pane (Console)
+    # Renaming the Factored Variables to the Original Variable Name
+    
+    colnames(stats)[which(names(stats) == "x_var")] <- x_var
+    colnames(stats)[which(names(stats) == "y_var")] <- y_var
+    
+    # Displaying the Final Frequency Table
+    
+    table(stats) 
 
-    
 # Step 6: Performing Statistical Analyses
+
+    # Fisher's Exact Test 
+    # (if you have two categorical variables each with 2 groups)
     
-    # The appropriate statistical test to assess for a relationship between two categorical variables depends on how many groups each categorical variable has. If BOTH categorical variables have exactly two groups then Fisher's Exact Test is best. If either of the categorical variables has more than two groups then a Chi-Square Contingency Analysis should be performed. 
-
-    # * Once you have decided which test is best for you data, **DELETE** the R chunk for the opposite statistical test so it is not included in your final PDF output. 
-    # * For example, if both categorical variables have two groups and you want to perform a Fisher's Exact Test: **KEEP** the R chunk that performs the Fisher's Exact Test but **DELETE** the R chunk that performs the Chi-Square Contingency Analysis
-
-        # **Fisher's Exact Test**
-      
-              # * Replace **ONE** `insert-x-variable-name-here` with your explanatory (independent) variable's name
-              # * Replace **ONE** `insert-y-variable-name-here` with your response (dependent) variable's name
+    fisher.table <- xtabs(~ y_var + x_var, data = my_data) 
+    # Defines the variables and data to use for the test
     
-              fisher.table <- xtabs(~ insert-y-variable-name-here + insert-x-variable-name-here, data = my_data) # Defines the variables and data to use for the test
-              fisher.results <- fisher.test(fisher.table) # Stores the results in a table
-              fisher.results # Displays the results of the Fisher's Test in the lower left pane (Console)
-
+    fisher.results <- fisher.test(fisher.table) 
+    # Stores the results in a table
     
-        # **Code for Chi-Square Contingency Analysis**
-      
-              # * Replace **ONE** `insert-x-variable-name-here` with your explanatory (independent) variable's name
-              # * Replace **ONE** `insert-y-variable-name-here` with your response (dependent) variable's name
+    fisher.results 
+    # Displays the results of the Fisher's Test in the lower left pane (Console)
 
-              chi.table <- xtabs(~ insert-y-variable-name-here + insert-x-variable-name-here, data = my_data) # Defines the variables and data to use for the test
-              chisq.results <- chisq.test(chi.table) # Stores the results in a table
-              chisq.results # Displays the results of the Fisher's Test in the lower left pane (Console)
+    # Code for Chi-Square Contingency Analysis 
+    # (if you have two categorical variables and at least one of them has >2 groups)
+
+    chi.table <- xtabs(~ y_var + x_var, data = my_data) 
+    # Defines the variables and data to use for the test
+    
+    chisq.results <- chisq.test(chi.table) 
+    # Stores the results in a table
+    
+    chisq.results 
+    # Displays the results of the Fisher's Test in the lower left pane (Console)
     
     
