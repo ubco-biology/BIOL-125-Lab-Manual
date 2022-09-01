@@ -9,8 +9,12 @@
 1. You will be joining your lab mates and TA during your regular scheduled time but online
 2. Your TA will go through a PowerPoint presentation online
 3. You will be given time to review all material provided on Canvas
-4. You must complete all quizzes for this week's lab provided on Canvas due **before 11:59 pm on July 25th**
-5. Submit your final recommendation report Assignment #5 **before 11:59pm on July 28th** 
+4. You must complete all quizzes for this week's lab provided on Canvas
+5. Submit your final recommendation report Assignment #5 
+
+<div class="note">
+See [Canvas](https://canvas.ubc.ca) for assignment due dates.
+</div>
 
 This week you will be working your way through the material posted on Canvas online but during your scheduled lab time. Your TA will spend time going over a quick [PowerPoint presentation](https://osf.io/download/6wupk) regarding these animals.  You will then need to spend a fair bit of time going through the different videos, images, and written material provided to ensure you have a solid grasp of these animals before coming to campus next week for your synchronous week. You must complete all quizzes associated with the animals found in animal systems II **before 11:59 pm on July 27th**.  Even though you will be getting together this week there is no reason you can't start reviewing all this information ahead of time so that you are better prepared to get through the material during your lab section. 
 

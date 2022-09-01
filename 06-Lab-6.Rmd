@@ -11,8 +11,12 @@ The breakdown for this week\'s lab;
 1. You will be joining your lab mates and TA during your regular scheduled time but online
 2. Your TA will go through a PowerPoint presentation online
 3. You will be given time to review all material provided on Canvas
-4. You must complete all quizzes for this week\'s lab provided on [Canvas](https://canvas.ubc.ca/) due **before 11:59 pm on July 20th** 
-5. Your Recommendation Report Draft is due this week.  Submit your draft **before 11:59 pm on July 18th** to avoid a late penalty or a zero!
+4. You must complete all quizzes for this week\'s lab provided on [Canvas](https://canvas.ubc.ca/) 
+5. Your Recommendation Report Draft is due this week.  
+
+<div class="note">
+See [Canvas](https://canvas.ubc.ca) for assignment due dates.
+</div>
 
 **Before lab** you will need to read through the information outlined below in Animal Systems Information for three phyla: Annelida, Mollusca and Arthropoda.
 
