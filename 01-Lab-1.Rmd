@@ -164,8 +164,8 @@ Compare this with what we had before
 
 By specifing a proposed relationship that articulates our variables, not only can we now test this question directly, it identifies exactly what we\'re interested in testing, and it\'s concise, which means that we can then readily propose a hypothesis and <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Null-hypothesis">null hypothesis</a> to address it:
 
-* H<sub>o</sub>: fertilizer x will increase the quantity of fruit set of Vigna radiata.
-* H<sub>a</sub>: fertilizer x will have no impact on the quantity of fruit set of Vigna radiata.
+* H<sub>o</sub>: fertilizer x will have no impact on the quantity of fruit set of Vigna radiata.
+* H<sub>a</sub>: fertilizer x will increase the quantity of fruit set of Vigna radiata.
 
 <div class = "advanced">
 Reproducibility, meta-analyses, and the evidence base
