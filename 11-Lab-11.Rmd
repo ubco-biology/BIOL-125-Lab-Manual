@@ -10,147 +10,115 @@ Your TA will pre-determine the order of your presentations and will let you know
 
 # Presentation Rubric {-}
 
-**Total /33**
-
-### System Description {-}
-
-**/7**
-
-**Criteria**
-
-* All 5 systems were represented
-* At least 2 structures from each system were identified
-* The digestive system was clearly explained
-* The circulatory system was clearly explained
-* The excretory system was clearly explained
-* The respiratory system was clearly explained
-* The reproductive system was clearly explained
-
-| Points                     | Criteria                          |
-|----------------------------|-----------------------------------|
-| Exceeds Expectations 7 pts | All 7 criteria were met           |
-| Excellent 6 pts            | 6 of the 7 criteria were met      |
-| Proficient 5 pts           | 5 of the 7 criteria were met      |
-| Fair 4 pts                 | 4 of the 7 criteria were met      |
-| Unsatisfactory 3 pts       | 3 of the 7 criteria were met      |
-| Poor 2 pts                 | 2 of the 7 criteria were met      |
-| Unacceptable 1 pt          | Only 1 of the 7 criteria were met |
-| Absent  0 pts              | No criteria were met              |
+**Total /38**
 
 ### System Integration {-}
 
-**/5**
+This criterion is linked to a Learning Outcome **System Integration**. All systems and regulatory strategies have been thoroughly explained
 
-**Criteria**
+**Possible Points 8**
 
-* Integration between the respiratory and circulatory system were explained well
-* Appropriate structures within the respiratory and circulatory were used when describing the compatibility
-* Integration between the excretory and digestive system were explained well
-* Appropriate structures within the digestive and excretory system were used when describing the compatibility
-* Explanation of the integration of these systems flowed well and was easy to follow
+| Ratings | Comment |
+| --- | --- |
+| 8 pts | Excellent. All four systems are represented and explained. |
+| 6 pts | Proficient. 3 of the 4 systems are represented and explained. |
+| 4 pts | Satisfactory. 1-2 of the systems are represented and explained. |
+| 2 pts | Unsatisfactory. It is unclear what system is being included. |
 
-| Points             | Criteria                          |
-|--------------------|-----------------------------------|
-| Excellent 5 pts    | All 5 criteria were met           |
-| Proficient 4 pts   | 4 of the 5 criteria were met      |
-| Satisfactory 3 pts | 3 of the 5 criteria were met      |
-| Poor 2 pts         | 2 of the 5 criteria were met      |
-| Unacceptable 1 pt  | Only 1 of the 5 criteria were met |
-| Absent  0 pts      | No criteria were met              |
+This criterion is linked to a Learning Outcome **System Integration**. All systems and regulatory strategies have been thoroughly explained. This criterion is linked to a Learning Outcome System integration Systems are compatible with each other as described in the final version of the animal.
+
+**Possible Points 10**
+
+| Ratings | Comment |
+| --- | --- |
+| 10 pts | Excellent. The compatibility of all 4 systems has been reasoned logically and fully explained for all 4 systems. |
+| 8 pts | Proficient. The compatibility of the 3 systems has been reasoned logically and explained. |
+| 6 pts | Satisfactory. The compatibility of the 2 systems has been reasoned logically and explained systems. |
+| 4 pts | Developing. The compatibility of only 1 system has been reasoned logically and explained systems. | 
+| 2 pts | Unsatisfactory. Compatibility between the systems is not clearly described. |
 
 ### Life Cycle {-}
 
-**/6**
+This criterion is linked to a Learning Outcome **Life Cycle**. The full life cycle has been provided and all structures and ploidy are indicated.
 
-**Criteria**
+**Possible Points 4**
 
-* All relevant reproductive structures have been identified
-* Type of reproduction has been made clear
-* Full description of the reproductive process has been provided
-* Life cycle has been provided and explained
-* All relevant structures of the life cycle have been properly identified
-* Ploidy of structures has been clearly shown
+| Ratings | Comment |
+| --- | --- |
+| 4 pts | Excellent. All criteria are met. |
+| 3 pts | Proficient. 3/4 of the criteria are met. |
+| 2 pts | Satisfactory. Half of the criteria are met. |
+| 1 pts | Developing. The life cycle has been provided but does not fulfill the remaining requirements. | 
+| 0 pts | Unsatisfactory. No life cycle was provided. |
 
-| Points             | Criteria                          |
-|--------------------|-----------------------------------|
-| Excellent 6 pts    | All criteria were met             |
-| Proficient 5 pts   | 5 of the 6 criteria were met      |
-| Good 4 pts         | 4 of the 6 criteria were met      |
-| Satisfactory 3 pts | 3 of the 6 criteria were met      |
-| Poor 2 pts         | 2 of the 6 criteria were met      |
-| Unacceptable 1 pt  | Only 1 of the 6 criteria were met |
-| Absent  0 pts      | No criteria were met              |
+### Environment {-}
 
-### Environment and System Compatability {-}
+This criterion is linked to a Learning Outcome **Environment**. Explained how animal and their systems are compatible with the environment.
 
-**/4**
+**Possible Points 2**
 
-**Criteria**
+| Ratings | Comment |
+| --- | --- |
+| 2 pts | Excellent. Logical. |
+| 1 pts | Satisfactory. Illogical or incomplete. |
+| 0 pts | Unsatisfactory. One member of the group is primarily presenting and expertise is not demonstrated. |
 
-* Clearly explains how the respiratory system of the animal works with its environment
-* Clearly explains how the circulatory system of the animal works with its environment
-* Clearly explains how the digestive system of the animal works with its environment
-* Clearly explains who the excretory system of the animal works with its environment
+This criterion is linked to a Learning Outcome **Environment**. Description of how animal functions/lives/is affected by its environment.
 
-| Points             | Criteria                          |
-|--------------------|-----------------------------------|
-| Excellent 4 pts    | All criteria were met             |
-| Proficient 3 pts   | 3 of the 4 criteria were met      |
-| Satisfactory 2 pts | 2 of the 4 criteria were met      |
-| Unacceptable 1 pt  | Only 1 of the 4 criteria were met |
-| Absent  0 pts      | No criteria were met              |
+**Possible Points 2**
 
-### Environment - Morphological and Behavioural Adaptations {-}
+| Ratings | Comment |
+| --- | --- |
+| 2 pts | Excellent. Present and consistent between the animal and its environment. |
+| 1 pts | Satisfactory. Present but inconsistent between the animal and its environment. |
+| 0 pts | Unsatisfactory. Absent. |
 
-**/3**
+### Overall {-}
 
-**Criteria**
+This criterion is linked to a Learning Outcome **Overall description**. Backbone, body design, appendages, covering, size, etc. selections.
 
-* Clear description of how the animal has adapted to live in its environment behaviorally
-* Clear description of how the animals had adapted physically (body structure, types of appendages, etc) to live in their environment
-* Structures involved in helping to adapt the animal to its environment are clearly articulated
+**Possible Points 3**
 
-| Points             | Criteria                          |
-|--------------------|-----------------------------------|
-| Excellent 3 pts    | All criteria were met             |
-| Satisfactory 2 pts | 2 of the 3 criteria were met      |
-| Unacceptable 1 pt  | Only 1 of the 3 criteria were met |
-| Absent  0 pts      | No criteria were met              |
+| Ratings | Comment |
+| --- | --- |
+| 3 pts | Excellent. All consistent within the animal and it's physiological systems. |
+| 2 pts | Proficient. Some inconsistencies within the animal or with its systems. |
+| 1 pts | Satisfactory. Most or all inconsistent within the animal and/or its systems. |
+| 0 pts | Unsatisfactory. Drawing and description are unclear and non-informative. |
+
+This criterion is linked to a Learning Outcome **Overall**. The presentation style is clear, had sensible flow, volume was appropriate, and the presenter was engaging
+
+**Possible Points 3**
+
+| Ratings | Comment |
+| --- | --- |
+| 3 pts | Excellent. All criteria are met. |
+| 2 pts | Proficient. 3 of the four criteria have been met. |
+| 1 pts | Developing. 1-2 of the criteria have been met. |
+| 0 pts | Unsatisfactory. 0-1 of the criteria have been met. |
+
+### Scientific Information {-}
+
+This criterion is linked to a Learning Outcome **Scientific Information**. Details of the process of each system were conveyed with appropriate terminology.
+
+**Possible Points 3**
+
+| Ratings | Comment |
+| --- | --- |
+| 3 pts | Excellent. All of the structures and associated functions for each system were described. |
+| 2 pts | Proficient. Most of the structures and their associated functions for each system were described. |
+| 1 pts | Developing. Some of the structures and their associated functions for each system were described. |
+| 0 pts | Unsatisfactory. Many of either the structure or their associated functions were missing. |
 
 ### Presentation {-}
 
-**/5**
+This criterion is linked to a Learning Outcome **Presentation**. Evidence that the student can communicate their ideas accurately and in a meaningful way.
 
-**Criteria**
+**Possible Points 3**
 
-* Presentation was clear and easy to follow
-* Volume of all presenters was appropriate
-* Presenters shared in the presentation equally
-* All presenters were engaging and showed enthusiasm for their project
-* All presenters displayed a solid understanding of their animal and the corresponding systems
-
-| Points             | Criteria                          |
-|--------------------|-----------------------------------|
-| Excellent 5 pts    | All 5 criteria were met           |
-| Proficient 4 pts   | 4 of the 5 criteria were met      |
-| Fair 3 pts | 3 of the 5 criteria were met      |
-| Unsatisfactory 2 pts         | 2 of the 5 criteria were met      |
-| Unacceptable 1 pt  | Only 1 of the 5 criteria were met |
-| Absent  0 pts      | No criteria were met              |
-
-### Plagiarism and In-Text Citations {-}
-
-**/3**
-
-**Criteria**
-
-* No plagiarism of any kind
-* In-text citations were used when appropriate and followed APA format
-* References were provided
-
-| Points             | Criteria                          |
-|--------------------|-----------------------------------|
-| Excellent 3 pts    | All criteria were met             |
-| Satisfactory 2 pts | 2 of the 3 criteria were met      |
-| Unacceptable 1 pt  | Only 1 of the 3 criteria were met |
-| Absent  0 pts      | No criteria were met              |
+| Ratings | Comment |
+| --- | --- |
+| 3 pts | Excellent. Every major point is well supported and well-articulated. The presenter engages with the audience while conveying a clear understanding of knowledge and understanding of their systems. |
+| 2 pts | Proficient. Every major point is adequately supported and well-articulated. The presenter engages with the audience while conveying an adequate understanding of knowledge and understanding of their systems. |
+| 1 pts | Developing. Many of the points are adequately supported and articulated. The presenter engages with the audience to some degree but does read from their notes and only partially convey's the necessary information. |
+| 0 pts | Unsatisfactory. The presenter is reading word for word notes and does not seem to be able to articulate information about their animal systems. |
